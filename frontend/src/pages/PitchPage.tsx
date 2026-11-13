@@ -96,10 +96,10 @@ const slides: Slide[] = [
     layout: "stack",
     render: () => (
       <>
-        <Kicker>Lingo Translator</Kicker>
-        <h1>De la phrase saisie au texte renvoyé.</h1>
+        <Kicker>Présentation</Kicker>
+        <h1>Lingo Translator</h1>
         <p className="deck-lede">
-          Une phrase change de registre. La langue reste. Les poids ne bougent pas.
+          Une phrase ordinaire entre. Elle ressort dans une voix choisie. Je montre d’abord comment c’est branché, puis un exemple à l’écran.
         </p>
         <div className="media-mid">
           <LoopVideo src="/pitch/jensen.mp4" />
@@ -208,15 +208,15 @@ const slides: Slide[] = [
     layout: "stack",
     render: () => (
       <>
-        <Kicker>prompts.py · build_prompt</Kicker>
-        <h1>Deux messages. Pas un bloc.</h1>
+        <Kicker>Comment la voix est choisie</Kicker>
+        <h1>Le bouton ne change pas le modèle. Il change le texte qu’on lui met devant.</h1>
         <Bullets
           items={[
-            "styles.yaml décrit chaque voix. build_prompt met ces règles dans le message système.",
-            "La phrase tapée va seule dans le message utilisateur. On ne la recolle pas dans les règles.",
-            "LinkedIn a cinq tons. linkedin_tone choisit lequel. Les autres voix n’ont pas de ton.",
-            "La variante D ajoute des exemples de réécriture. Sans ça, le modèle a seulement les règles.",
-            "Le prompt_id, comme linkedin.motivational.D.r1, dit quelle voix a été utilisée. Une consigne plus stricte, mêmes poids, a inventé « 3:17 p.m. ».",
+            "Sur la page, LinkedIn ou PDG n’est qu’un nom. build_prompt va chercher ce nom dans styles.yaml.",
+            "Le fichier contient les règles de cette voix : rester sérieux, garder le fait, ne pas faire un clin d’œil. Ça devient le message système.",
+            "La phrase tapée est le seul message utilisateur. Le modèle doit réécrire ça, pas inventer un autre événement.",
+            "Pour LinkedIn, le ton ajoute un deuxième texte, par exemple motivationnel. La variante D colle aussi deux ou trois exemples « phrase → poste », pour montrer le genre de mots, pas une histoire à recopier.",
+            "Après ça, le modèle écrit la suite dans cette voix. Les poids ne bougent pas. Le prompt_id à l’écran, comme ceo.base.r1, est juste le nom de la voix envoyée.",
           ]}
         />
         <div className="media-mid">
@@ -322,20 +322,25 @@ const slides: Slide[] = [
     ),
   },
   {
-    id: "rate",
-    title: "Où ça rate",
+    id: "pile",
+    title: "La pile",
     render: () => (
       <>
-        <Kicker>La limite qu’on peut montrer</Kicker>
-        <h1>On lui dit de copier les nombres. Il calcule.</h1>
-        <Bullets
-          items={[
-            "Phrase : « I owed Maya $18 and paid her back $20. » Il garde 20, efface 18, et écrit un surplus de 2 $.",
-            "Ailleurs, 8 devient le mot « eight ». Le sens passe. Le chiffre, non.",
-            "La consigne le dit pourtant : recopier chaque nombre, ne pas le transformer.",
-            "Une deuxième réécriture est écrite dans le code. Elle est éteinte, et elle ne vérifie pas les nombres non plus.",
-          ]}
-        />
+        <Kicker>Les bibliothèques, et ce que chacune fait</Kicker>
+        <h1>Deux programmes. Vite les fait se parler.</h1>
+        <div className="deck-split">
+          <article className="deck-card">
+            <b>Page · port 5173</b>
+            <p>React dessine les boutons. TypeScript vérifie le code. Vite lance la page et, dans vite.config.ts, renvoie tout ce qui commence par /api vers 127.0.0.1:8000. Le navigateur croit parler au même site.</p>
+          </article>
+          <article className="deck-card">
+            <b>API · port 8000</b>
+            <p>FastAPI reçoit le JSON. Pydantic vérifie les champs. Uvicorn fait tourner le serveur. PyYAML lit styles.yaml. PyTorch pose les poids sur la carte. Transformers et tokenizers chargent Qwen et découpent le texte.</p>
+          </article>
+        </div>
+        <p className="deck-note">
+          Sans le proxy de Vite, la page sur 5173 ne pourrait pas appeler l’API sur 8000. Hugging Face Hub a seulement téléchargé les poids. Après ça, generate reste sur cette machine.
+        </p>
       </>
     ),
   },
