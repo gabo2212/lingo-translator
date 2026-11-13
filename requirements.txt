@@ -1,0 +1,18 @@
+# CUDA 13.4 wheel for this RTX 5080 (compute capability 12.0).
+# Install torch from that index first if a plain `pip install -r requirements.txt`
+# resolves a CPU build instead. Then reinstall the pin below.
+--extra-index-url https://download.pytorch.org/whl/cu134
+
+torch==2.15.0+cu134
+transformers==5.23.0
+accelerate==1.15.0
+fastapi==0.162.7
+uvicorn==0.54.0
+pydantic==2.14.3
+pytest==9.2.0
+PyYAML==6.0.3
+httpx==0.28.1
+numpy==2.5.4
+huggingface-hub==2.4.0
+safetensors==0.8.0
+tokenizers==0.23.3

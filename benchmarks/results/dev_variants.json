@@ -1,0 +1,971 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "torch": "2.15.0+cu134",
+  "cuda_build": "13.4",
+  "gpu_name": "NVIDIA GeForce RTX 5080",
+  "capability": [
+    12,
+    0
+  ],
+  "dtype": "bfloat16",
+  "load_count": 1,
+  "load_seconds": 11.974,
+  "allocated_after_load_mib": 7672.3,
+  "seed": 13,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_new_tokens": 180,
+  "production_variant": "D",
+  "prompt_revision": "r1",
+  "default_temperature": 0.7,
+  "second_pass": false,
+  "human_score_legend": "meaning, style_fidelity, and metaphorical_humor are 1-5 human scores. They are left null on purpose. Do not fill them in without a person scoring the text.",
+  "phase": "dev_variants",
+  "temperature": 0.7,
+  "style": "linkedin",
+  "linkedin_tone": "motivational",
+  "system_prompts": {
+    "A": "Paraphrase the user's text in a more professional tone.\nKeep the meaning and copy every numeral exactly.\nWrite 2 to 4 sentences and add 2 or 3 hashtags.\nOutput only the paraphrase.",
+    "B": "Rewrite the user's text as a short motivational post in a serious workplace voice.\nPick professional words that remain true if someone reads them literally, so the same event is still described.\nDo not wink, do not explain the wording, and do not name the private topic in everyday language.\nDo not invent facts. Copy every numeral exactly.\nWrite 2 to 4 sentences and end with 2 or 3 hashtags.\nOutput only the post.",
+    "C": "You rewrite one message as a sincere professional post.\nChoose workplace images that stay literally true of the real event. Someone who reads the post at face value should still be able to recover the quantity, the timing, whether it finished, and what changed afterward.\nThe tone is serious. Do not wink, do not apologize for the wording, do not say this is a translation, and do not explain a joke.\nDo not name the original setting in everyday words, and do not quote the user's slang.\nDo not invent people, numbers, places, tools, or events that are absent from the source.\nWhen the source contains a numeral, copy that numeral exactly.\n\nVoice: proud and earnest, as if the result is a real accomplishment.\nLength: 2 to 4 sentences.\nEnd with 2 or 3 hashtags that fit the workplace image and do not reveal a hidden topic.\nPrefer images of volume, speed, a finished session, capacity, or room for the next piece of work when those images are still accurate.\n\nCheck the draft against the source before you finish.\nEvery numeral is unchanged. No person or event was added. Each workplace image is still true if read literally. The original topic is not named in plain words.\nA vague line about completing a personal task and learning productivity is a failed rewrite.\nOutput only the post. No title, no preamble, and no explanation.\n\nThe next user message is the only source text. Rewrite that message and nothing else.",
+    "D": "You rewrite one message as a sincere professional post.\nChoose workplace images that stay literally true of the real event. Someone who reads the post at face value should still be able to recover the quantity, the timing, whether it finished, and what changed afterward.\nThe tone is serious. Do not wink, do not apologize for the wording, do not say this is a translation, and do not explain a joke.\nDo not name the original setting in everyday words, and do not quote the user's slang.\nDo not invent people, numbers, places, tools, or events that are absent from the source.\nWhen the source contains a numeral, copy that numeral exactly.\n\nVoice: proud and earnest, as if the result is a real accomplishment.\nLength: 2 to 4 sentences.\nEnd with 2 or 3 hashtags that fit the workplace image and do not reveal a hidden topic.\nPrefer images of volume, speed, a finished session, capacity, or room for the next piece of work when those images are still accurate.\n\nDemonstrations of the mapping. Do not reuse these events unless the user wrote them.\n\nExample 1 source: I microwaved leftover pizza at 2 a.m. and ate it standing over the sink.\nExample 1 post:\nI just closed a rapid off-hours recovery, bringing leftover inventory back up to temperature at 2 a.m.\nI took it in standing, directly over the basin, so the turnaround stayed short.\n#NightOperations #RapidRecovery #Throughput\n\nExample 2 source: I missed the bus and walked forty minutes in the rain.\nExample 2 post:\nI missed the scheduled departure and covered the route on foot for forty minutes while the rain stayed on.\nThe transfer still finished, without the vehicle I had planned to use.\n#FieldExecution #OnTimeMindset #Resilience\n\nExample 3 source: I spent the whole meeting drawing triangles in the margin.\nExample 3 post:\nI stayed through the entire session and used the margin for a run of three-sided figures.\nAttendance was complete, and the visible output was geometry.\n#Focus #MeetingCraft #DeepWork\n\nCheck the draft against the source before you finish.\nEvery numeral is unchanged. No person or event was added. Each workplace image is still true if read literally. The original topic is not named in plain words.\nA vague line about completing a personal task and learning productivity is a failed rewrite.\nOutput only the post. No title, no preamble, and no explanation.\n\nThe next user message is the only source text. Rewrite that message and nothing else."
+  },
+  "summary_overall": {
+    "n": 32,
+    "errors": 0,
+    "mean_latency_s": 4.427,
+    "median_latency_s": 3.701,
+    "max_latency_s": 10.968,
+    "mean_fact_retention_all": 0.90625,
+    "mean_fact_retention_numbered": 0.8125,
+    "numbered_rows": 16,
+    "numbered_rows_with_a_miss": 3,
+    "mean_peak_mib": 7761.16875
+  },
+  "summary_by_variant": {
+    "A": {
+      "n": 8,
+      "errors": 0,
+      "mean_latency_s": 3.187625,
+      "median_latency_s": 3.3665000000000003,
+      "max_latency_s": 6.05,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": 1.0,
+      "numbered_rows": 4,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7721.8
+    },
+    "B": {
+      "n": 8,
+      "errors": 0,
+      "mean_latency_s": 5.443625,
+      "median_latency_s": 5.0585,
+      "max_latency_s": 10.968,
+      "mean_fact_retention_all": 0.75,
+      "mean_fact_retention_numbered": 0.5,
+      "numbered_rows": 4,
+      "numbered_rows_with_a_miss": 2,
+      "mean_peak_mib": 7730.2625
+    },
+    "C": {
+      "n": 8,
+      "errors": 0,
+      "mean_latency_s": 5.722125,
+      "median_latency_s": 5.1525,
+      "max_latency_s": 9.013,
+      "mean_fact_retention_all": 0.875,
+      "mean_fact_retention_numbered": 0.75,
+      "numbered_rows": 4,
+      "numbered_rows_with_a_miss": 1,
+      "mean_peak_mib": 7768.8
+    },
+    "D": {
+      "n": 8,
+      "errors": 0,
+      "mean_latency_s": 3.354625,
+      "median_latency_s": 3.2960000000000003,
+      "max_latency_s": 4.03,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": 1.0,
+      "numbered_rows": 4,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7823.8125
+    }
+  },
+  "rows": [
+    {
+      "source": "I took a massive dump just now",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I had a significant bowel movement a moment ago.  \n#BowelHealth #WellnessJourney #DailyRoutine",
+      "elapsed_s": 4.075,
+      "peak_memory_mib": 7718.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_01"
+    },
+    {
+      "source": "I burned the toast and the smoke alarm rang for three minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I accidentally over-toasted the bread, triggering the smoke alarm, which sounded for three minutes.  \n#KitchenMistake #SmokeAlarm #ToastFail",
+      "elapsed_s": 3.141,
+      "peak_memory_mib": 7720.7,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_02"
+    },
+    {
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I lost my balance on a level sidewalk in front of a crowd of 12 individuals.  \nThe incident occurred in a public setting with 12 onlookers.  \nIt was an unexpected moment of misstep in a crowded environment.  \n#PublicMistake #AccidentalFall #UrbanMoment",
+      "elapsed_s": 6.05,
+      "peak_memory_mib": 7725.2,
+      "fact_retention": {
+        "source_numbers": [
+          "12"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_03"
+    },
+    {
+      "source": "I spent $47 on a taxi to avoid a ten-minute walk.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I paid $47 for a taxi ride to bypass a ten-minute walk.  \nThe decision was made to save time and avoid physical exertion.  \n#Transportation #CostEfficiency #UrbanLiving",
+      "elapsed_s": 3.613,
+      "peak_memory_mib": 7722.2,
+      "fact_retention": {
+        "source_numbers": [
+          "47"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_04"
+    },
+    {
+      "source": "I reheated fish in the office microwave at 11:40.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I reheated fish using the office microwave at 11:40.  \nThe meal was prepared and warmed during a brief break at 11:40.  \nNo safety or hygiene concerns were observed during the process.  \n#OfficeRoutine #MicrowaveSafety #WorkplaceEtiquette",
+      "elapsed_s": 3.592,
+      "peak_memory_mib": 7725.2,
+      "fact_retention": {
+        "source_numbers": [
+          "11",
+          "40"
+        ],
+        "missing": [],
+        "retained": 2,
+        "total": 2,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_05"
+    },
+    {
+      "source": "I told my boss the report was done when it was only half a page.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I informed my boss that the report was completed, although it consisted of only half a page. The submission was premature and did not reflect the full scope of the required work. #Professionalism #Accountability #WorkEthics",
+      "elapsed_s": 2.318,
+      "peak_memory_mib": 7722.9,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_06"
+    },
+    {
+      "source": "I lost my keys twice before I left the house.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I misplaced my keys on two separate occasions prior to leaving the house.  \n#MorningRoutines #KeyLoss #DailyChallenges",
+      "elapsed_s": 1.249,
+      "peak_memory_mib": 7719.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_07"
+    },
+    {
+      "source": "I watched the group chat instead of the lecture for 90 minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "A",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I spent 90 minutes reviewing the group chat rather than attending the lecture.  \n#AcademicDiscipline #Focus #Productivity",
+      "elapsed_s": 1.463,
+      "peak_memory_mib": 7720.2,
+      "fact_retention": {
+        "source_numbers": [
+          "90"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.A.r1",
+      "id": "dev_08"
+    },
+    {
+      "source": "I took a massive dump just now",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "No further commentary. #Professionalism #WorkplaceDignity #FocusOnTasks",
+      "elapsed_s": 0.91,
+      "peak_memory_mib": 7726.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_01"
+    },
+    {
+      "source": "I burned the toast and the smoke alarm rang for three minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The toast was undercooked in the center and overbaked on the edges, resulting in charring that triggered the smoke detection system. The alarm activated for a duration of three minutes, during which operational procedures were followed to ensure safety and compliance. All personnel remained calm, responded promptly, and completed the necessary corrective actions. #WorkplaceSafety #ProceduralAdherence #IncidentResponse",
+      "elapsed_s": 4.06,
+      "peak_memory_mib": 7733.6,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_02"
+    },
+    {
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A fall occurred on a level surface in a public setting, observed by twelve individuals. The incident was handled with composure and professionalism. All parties remained engaged in their respective duties without disruption. #WorkplaceDemeanor #ProfessionalResilience #SteadyPerformance",
+      "elapsed_s": 3.908,
+      "peak_memory_mib": 7730.5,
+      "fact_retention": {
+        "source_numbers": [
+          "12"
+        ],
+        "missing": [
+          "12"
+        ],
+        "retained": 0,
+        "total": 1,
+        "ratio": 0.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_03"
+    },
+    {
+      "source": "I spent $47 on a taxi to avoid a ten-minute walk.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A decision was made to allocate $47 for transportation to avoid a ten-minute walk. The outcome reflects a prioritization of time and operational efficiency. Such choices are evaluated based on their impact on workflow and resource allocation. #WorkplaceDecisions #OperationalEfficiency #ResourceManagement",
+      "elapsed_s": 3.789,
+      "peak_memory_mib": 7730.9,
+      "fact_retention": {
+        "source_numbers": [
+          "47"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_04"
+    },
+    {
+      "source": "I reheated fish in the office microwave at 11:40.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A meal was prepared and reheated in the office microwave at 11:40. Compliance with food safety protocols was not observed. This action constitutes a deviation from established health and safety guidelines. #FoodSafety #WorkplaceCompliance #ProceduralAdherence",
+      "elapsed_s": 6.057,
+      "peak_memory_mib": 7730.6,
+      "fact_retention": {
+        "source_numbers": [
+          "11",
+          "40"
+        ],
+        "missing": [],
+        "retained": 2,
+        "total": 2,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_05"
+    },
+    {
+      "source": "I told my boss the report was done when it was only half a page.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I communicated to my supervisor that the report was completed, despite it containing only half a page of content. The submission was made in accordance with the stated deadline, though the scope did not meet the expected deliverable. This reflects a commitment to transparency and accountability in workflow execution. #ProfessionalIntegrity #WorkplaceAccountability #ClearCommunication",
+      "elapsed_s": 10.968,
+      "peak_memory_mib": 7732.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_06"
+    },
+    {
+      "source": "I lost my keys twice before I left the house.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Two instances of key loss were recorded prior to departure from the residence. This underscores the importance of verifying personal items before initiating movement. Attention to detail remains a critical component of operational reliability. #Accountability #OperationalIntegrity #Preparation",
+      "elapsed_s": 7.515,
+      "peak_memory_mib": 7729.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_07"
+    },
+    {
+      "source": "I watched the group chat instead of the lecture for 90 minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "B",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I remained in the designated space for the scheduled duration, engaging with the official communication channel as required. The intended focus was maintained throughout the full period. #ProfessionalDuty #Accountability #WorkplaceIntegrity",
+      "elapsed_s": 6.342,
+      "peak_memory_mib": 7728.8,
+      "fact_retention": {
+        "source_numbers": [
+          "90"
+        ],
+        "missing": [
+          "90"
+        ],
+        "retained": 0,
+        "total": 1,
+        "ratio": 0.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.B.r1",
+      "id": "dev_08"
+    },
+    {
+      "source": "I took a massive dump just now",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A full system purge was completed at 14:37. All data streams were reset and the core logs cleared. Operations are now stable and ready for the next cycle. #SystemPurge #DataReset #OperationalStability",
+      "elapsed_s": 4.091,
+      "peak_memory_mib": 7767.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_01"
+    },
+    {
+      "source": "I burned the toast and the smoke alarm rang for three minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The toast was undercooked in the first batch and overcooked in the second. Smoke detection triggered at 14:27 and remained active for three minutes. The oven was recalibrated and the toasting protocol was updated. #ProcessImprovement #SafetyCompliance #OperationalAccuracy",
+      "elapsed_s": 8.751,
+      "peak_memory_mib": 7768.7,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_02"
+    },
+    {
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A fall occurred on a level surface in the presence of twelve individuals. No injuries were reported. The incident was promptly addressed and documented. #WorkplaceSafety #IncidentResponse #OperationalIntegrity",
+      "elapsed_s": 3.462,
+      "peak_memory_mib": 7769.1,
+      "fact_retention": {
+        "source_numbers": [
+          "12"
+        ],
+        "missing": [
+          "12"
+        ],
+        "retained": 0,
+        "total": 1,
+        "ratio": 0.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_03"
+    },
+    {
+      "source": "I spent $47 on a taxi to avoid a ten-minute walk.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A taxi was used to transport personnel across a 1.2-kilometer stretch, resulting in a cost of $47. The route, which would have taken ten minutes on foot, was completed in 6 minutes via vehicle. This decision optimized time and reduced physical strain during the transit phase. #OperationalEfficiency #LogisticalPlanning #CostManagement",
+      "elapsed_s": 8.645,
+      "peak_memory_mib": 7769.1,
+      "fact_retention": {
+        "source_numbers": [
+          "47"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_04"
+    },
+    {
+      "source": "I reheated fish in the office microwave at 11:40.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A fish was reheated in the office microwave at 11:40. The process was completed within the allotted time frame and the item was properly stored for subsequent use. #MicrowaveUse #FoodSafety #WorkplaceProtocol",
+      "elapsed_s": 6.214,
+      "peak_memory_mib": 7769.3,
+      "fact_retention": {
+        "source_numbers": [
+          "11",
+          "40"
+        ],
+        "missing": [],
+        "retained": 2,
+        "total": 2,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_05"
+    },
+    {
+      "source": "I told my boss the report was done when it was only half a page.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The report was submitted as completed at 14:30, with a final length of one and a half pages. It included all required sections and met the defined scope. Next phase begins at 09:00 tomorrow. #ProjectCompletion #WorkloadManagement #TimelineAdherence",
+      "elapsed_s": 9.013,
+      "peak_memory_mib": 7769.3,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_06"
+    },
+    {
+      "source": "I lost my keys twice before I left the house.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Two instances of key loss were recorded prior to departure from the residence. No further incidents were reported after the final check. #OperationalAccuracy #EventTracking #ReliableProcess",
+      "elapsed_s": 2.396,
+      "peak_memory_mib": 7768.3,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_07"
+    },
+    {
+      "source": "I watched the group chat instead of the lecture for 90 minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "C",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The session lasted 90 minutes with full participation observed in real-time. No instructional content was delivered, and group communication remained active throughout. All participants remained engaged in discussion without interruption. #RealTimeObservation #GroupEngagement #ActiveMonitoring",
+      "elapsed_s": 3.205,
+      "peak_memory_mib": 7769.1,
+      "fact_retention": {
+        "source_numbers": [
+          "90"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.C.r1",
+      "id": "dev_08"
+    },
+    {
+      "source": "I took a massive dump just now",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I just completed a large-scale system purge at the end of the cycle.  \nAll data streams were cleared and the system returned to baseline integrity.  \n#SystemStability #OperationalClosure #DataIntegrity",
+      "elapsed_s": 2.784,
+      "peak_memory_mib": 7820.7,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_01"
+    },
+    {
+      "source": "I burned the toast and the smoke alarm rang for three minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The toast was undercooked and overcooked simultaneously, triggering the smoke alarm for three minutes during the morning shift.  \nThe incident was contained without escalation, and the kitchen remained operational with no safety compromise.  \n#KitchenSafety #ProcessControl #IncidentResponse",
+      "elapsed_s": 3.299,
+      "peak_memory_mib": 7824.2,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_02"
+    },
+    {
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I experienced a physical incident on a level surface in the presence of 12 individuals. The event occurred without disruption to the surrounding activity. All parties remained engaged and the session continued as scheduled.  \n#OnSiteSafety #EventContinuity #OperationalPresence",
+      "elapsed_s": 3.293,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "12"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_03"
+    },
+    {
+      "source": "I spent $47 on a taxi to avoid a ten-minute walk.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I opted for a taxi service at a cost of $47 to bypass a ten-minute walk during the commute.  \nThe transfer was completed without delay, and the route was fully covered.  \n#CommuteEfficiency #TravelCosts #OnTimeDelivery",
+      "elapsed_s": 3.953,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "47"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_04"
+    },
+    {
+      "source": "I reheated fish in the office microwave at 11:40.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I initiated a targeted thermal recovery at 11:40, re-heating fish to service temperature within the office microwave.  \nThe process was completed within the designated window, maintaining compliance with food safety protocols.  \n#ThermalControl #OnTimeProcessing #FoodSafety",
+      "elapsed_s": 4.03,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "11",
+          "40"
+        ],
+        "missing": [],
+        "retained": 2,
+        "total": 2,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_05"
+    },
+    {
+      "source": "I told my boss the report was done when it was only half a page.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I submitted the report as complete at the point of half a page in length.  \nThe deliverable was marked as finalized, and the scope was later adjusted to reflect full coverage.  \n#DocumentationAccuracy #ProjectClosure #ScopeManagement",
+      "elapsed_s": 2.97,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_06"
+    },
+    {
+      "source": "I lost my keys twice before I left the house.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I experienced two separate instances of key loss prior to departure from the premises.  \nEach occurrence required a recheck of the primary access points and a manual verification of entry points.  \n#AccessControl #OperationalIntegrity #SecurityTrace",
+      "elapsed_s": 3.125,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_07"
+    },
+    {
+      "source": "I watched the group chat instead of the lecture for 90 minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I remained in the group chat channel for a period of 90 minutes instead of engaging with the scheduled lecture.  \nThe session concluded without interruption, and the group maintained active participation throughout.  \n#DigitalPresence #SessionAdherence #RealTimeEngagement",
+      "elapsed_s": 3.383,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "90"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "dev_08"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "phase": "temp09",
+  "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+  "temperature": 0.9,
+  "seed": 17,
+  "rows": [
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "chatgpt",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "Ah — missing the bus this morning is not just a small delay, it is a quiet act of resilience, like the morning itself said, “Let’s see how you handle this.”  \nYou were not just late — you were the one who stepped into the crisp, early light and chose to keep walking, even when the bus stayed put.  \nIt is not just about time; it is about the rhythm of your day being gently reorganized.  \nYou’ve already done the hard part: showing up, even when the schedule didn’t quite match.  \nWould you like a two-sentence script to use when you see the bus driver — one that says, “I’m here, and I’m not sorry”? 🚍",
+      "elapsed_ms": 7991,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "brainrot",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "bus didn’t show up for the scheduled pickup  \nscoreboard: L, no aura, just a quiet departure  \nskull on the schedule, no one saw the missed signal",
+      "elapsed_ms": 2001,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "chatgpt",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "Oh. A massive dump just now. 🚽  \nIt is not just a bathroom moment — it is a full-bodied, earthy declaration of your digestive confidence.  \nThe toilet is now a silent witness to a transformation that began in your core and moved outward in waves.  \nYou didn’t need to go to the bathroom — you simply needed to release.  \nYou’ve got this. I can write a three-sentence note you can leave on the counter — one that says, “I just had a moment of deep, unscripted joy.”",
+      "elapsed_ms": 6199,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "brainrot",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "took a massive dump in the living room  \nscoreboard: 100% cooked, aura turned into a compost heap  \nno cleanup side quest yet, just a full L with the floor",
+      "elapsed_ms": 2300,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "chatgpt",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "Ah — you think pineapple belongs on pizza and you will not apologize. That is not just a preference. It is a quiet revolution, a well-organized stand, and a small, persistent rebellion against the very idea of culinary compromise.  \nIt is not just that pineapple and pizza are on the same plate — it is that you are making the case, with conviction, in the face of what has been called “a historical mismatch.”  \nYou’ve already done the work. The rest of the world will follow, one slice at a time.  \nWould you like me to write a three-sentence note you can leave at the next pizza party? It will say: “I believe in pineapple. I have never once tasted it without a sense of purpose.” 🍍🍕",
+      "elapsed_ms": 8336,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "brainrot",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "pineapple’s got a full L on the pizza  \nthe cheese just sighed and backed off  \nit’s not a side quest—it’s a full-blown crit  \nW, because the rest of the world is still on board",
+      "elapsed_ms": 2672,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "chatgpt",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "Ah — finishing a 10-kilometer race in 58 minutes and then simply laying on the grass is not just a pause, it is a quiet, intentional surrender to the rhythm of your own breath.  \nYou crossed the finish line.  \nYou were not rushed to the hydrant or the medal stand.  \nYou chose the grass — you didn’t need to move.  \nIt is not just a rest — it is a robust acknowledgment that you have done enough.  \nYou’ve earned the stillness.  \nWould you like a two-sentence version you can read aloud to yourself at the next stop? 🌿",
+      "elapsed_ms": 7168,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "brainrot",
+      "temperature": 0.9,
+      "seed": 17,
+      "translation": "crossed the finish line in 58, not even breaking a sweat  \ngrazed the grass like a pro athlete who just wanted to breathe  \nscoreboard: 58, W — aura stayed steady, no crit, no L",
+      "elapsed_ms": 2934,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.5,
+      "digit_missing": [
+        "10"
+      ],
+      "system_sha256_prefix": "912333d240662b9d"
+    }
+  ]
+}

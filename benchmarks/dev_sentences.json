@@ -1,0 +1,46 @@
+{
+  "split": "dev",
+  "purpose": "Choose the prompt variant and the sampling temperature. The first sentence is a behavior reference only. It is not a hardcoded answer and it is not in the model prompt.",
+  "sentences": [
+    {
+      "id": "dev_01",
+      "text": "I took a massive dump just now",
+      "tags": ["golden", "embarrassing", "short"]
+    },
+    {
+      "id": "dev_02",
+      "text": "I burned the toast and the smoke alarm rang for three minutes.",
+      "tags": ["embarrassing", "mundane"]
+    },
+    {
+      "id": "dev_03",
+      "text": "I tripped on a flat sidewalk in front of 12 people.",
+      "tags": ["embarrassing", "numbers"]
+    },
+    {
+      "id": "dev_04",
+      "text": "I spent $47 on a taxi to avoid a ten-minute walk.",
+      "tags": ["ridiculous", "numbers"]
+    },
+    {
+      "id": "dev_05",
+      "text": "I reheated fish in the office microwave at 11:40.",
+      "tags": ["embarrassing", "numbers", "daily"]
+    },
+    {
+      "id": "dev_06",
+      "text": "I told my boss the report was done when it was only half a page.",
+      "tags": ["professional", "embarrassing"]
+    },
+    {
+      "id": "dev_07",
+      "text": "I lost my keys twice before I left the house.",
+      "tags": ["mundane", "daily"]
+    },
+    {
+      "id": "dev_08",
+      "text": "I watched the group chat instead of the lecture for 90 minutes.",
+      "tags": ["slang", "numbers", "daily"]
+    }
+  ]
+}

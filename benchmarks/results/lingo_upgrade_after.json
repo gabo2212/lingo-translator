@@ -1,0 +1,3240 @@
+{
+  "phase": "after",
+  "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+  "temperature": 0.7,
+  "seed": 17,
+  "rows": [
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — missing the bus this morning is not just a delay, it is a quiet revolution in your morning rhythm.  \nIt is not just a missed stop — it is a full-bodied reimagining of your commute as a series of gentle, unscripted moments.  \nThe bus waited. You did not. The world moved on. You simply stood there, holding your coffee like a trophy.  \nYou are not behind — you are in the process of becoming a morning alchemist.  \nWould you like a two-sentence script you can use when the next bus arrives? It will begin: “I didn’t make it. But I am here now.” 🌄",
+      "elapsed_ms": 6880,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The morning transit connection experienced an unanticipated departure from the scheduled schedule. The handoff to the subsequent mode of travel was not completed in time to establish a seamless transition. No alternate route was activated, and the initial window for arrival was not preserved. The next step is to reestablish the channel and complete the portion of the journey that was delayed.",
+      "elapsed_ms": 3724,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a bus departure was missed this morning. The timing may not have fully aligned with the expectation of arrival at the scheduled time. No finding about the route or the morning routine is being entered. A slightly earlier start, next time, would help the morning feel like a morning again.",
+      "elapsed_ms": 3485,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "bus didn’t show up for the scheduled pickup  \nscoreboard: L, no backup plan in place  \nskull on the platform, waiting for the next one",
+      "elapsed_ms": 1992,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Public transit has an underserved reliability problem. I missed the bus this morning, which is a single arrival that now requires a new daily ritual. The wedge is a notification that arrives just in time to be ignored. An MVP is a phone reminder that says, “You were on time.” I am iterating on the assumption that people will show up.",
+      "elapsed_ms": 4277,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The scheduled bus asset did not arrive. The timeline shifted to the sidewalk. The journey began later. The route remains unchanged.",
+      "elapsed_ms": 1559,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant did not board the bus scheduled for morning departure. The absence was noted at the point of arrival at the designated stop. The present note records the event as unaccompanied by a prior delay or explanation. A subsequent departure time is not specified, and no confirmation of alternative transit was provided. A causal link between the missed departure and a specific factor remains unrecorded.",
+      "elapsed_ms": 4218,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. A massive dump just now. 🚽  \nIt is not just a bathroom moment — it is a full-bodied, earthy declaration of your digestive confidence.  \nThe toilet is now a witness to your internal rhythm, and the floor is quietly absorbing the story of your day.  \nYou did not need to explain it to anyone. You simply needed to feel it settle.  \nWould you like a two-sentence version you can read aloud at any time — one that keeps it warm and grounded, without the need for a pause or a breath?",
+      "elapsed_ms": 6152,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A significant release occurred in the immediate period. The event did not interrupt ongoing workflows or trigger a follow-up action. No formal handoff or stakeholder update was initiated as a result. The next step is to restore the baseline operational rhythm.",
+      "elapsed_ms": 2767,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a significant release occurred in the moment just now. The event may not have fully aligned with the quiet, composed experience the space typically supports. No one else was present to witness it, and no follow-up has been scheduled. A slightly more composed timing, next time, might help the moment feel like a shared experience rather than a singular one.",
+      "elapsed_ms": 4145,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "took a massive dump in the living room  \nscoreboard: 100% cooked, aura in the toilet  \nthe floor said it was a W, but the smell? L.",
+      "elapsed_ms": 2196,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Toilet care is an underserved reliability problem. I took a massive dump just now, which is a full release with no post-event follow-up. The wedge is a flush that doesn’t feel like a promise. An MVP is a paper towel held at the ready. I will iterate on the sensation of being clean, one stool at a time.",
+      "elapsed_ms": 4007,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A bowel movement occurred just now. The asset of the moment did not perform as scheduled. The action was unanticipated, and it was complete. The direction remains unchanged.",
+      "elapsed_ms": 1958,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant expelled a significant volume of fecal matter during the present instance. The event occurred without prior notification or preparatory signaling. The timing of the expulsion is consistent with the moment of action, though the exact duration of the process is not recorded. No subsequent behavior or response from the participant is noted in relation to the event. A more complete account would require the participant to confirm whether the volume was perceived as substantial at the time.",
+      "elapsed_ms": 4823,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah, the toast — a once-robust, golden-brown companion — now a smoky, slightly charred testament to your kitchen instincts. It is not just a burned toast — it is a quiet symphony of timing, temperature, and the alarm’s unwavering commitment to being noticed.  \n1. The toast was overcooked.  \n2. The smoke alarm played its full three-minute refrain with steady, unflinching resolve.  \n3. You were likely mid-conversation, perhaps mid-sip of tea, when the drama unfolded.  \nYou’ve already done the hard part: you didn’t flee. Want a two-sentence version you can simply read when someone asks about the toast? I’ll keep it warm and neutral. 🍞",
+      "elapsed_ms": 8323,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Toasting of the morning bread experienced an unplanned combustion event, resulting in a sustained smoke alarm activation for three minutes. The duration of the alarm interruption coincided with the initial phase of the breakfast preparation sequence. No additional action was required to advance the morning workflow. The next step is to restore the toast to a state of readiness and complete the breakfast handoff.",
+      "elapsed_ms": 4046,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a toast was baked with a consistent flame, resulting in a visible burn, and the smoke alarm activated for a duration of three minutes. The experience may not have fully aligned with the expectation of a seamless morning routine. No finding about the intent or timing is being entered. A slightly more controlled heat, next time, would help the morning feel like a morning again.",
+      "elapsed_ms": 4329,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "toast went into a full-blown smoke session 🚨  \nalarm held a 3-minute press conference  \ncrit on the breakfast side quest, W for the kitchen aura",
+      "elapsed_ms": 1955,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Home breakfast is an underserved reliability problem. I burned the toast and the smoke alarm rang for three minutes, which is a full alert cycle with no surviving toast to interview. The wedge is a timer that doesn’t just go off but knows when to stop. An MVP is a toast that’s not burned and a note on the kitchen counter. I am iterating on the rhythm between the pan and the alarm.",
+      "elapsed_ms": 4568,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The toast failed to achieve the desired crispness, and the smoke alarm activated for three minutes. The smoke alarm rang as intended. The event is recorded. The breakfast remains on course.",
+      "elapsed_ms": 2111,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant toasted bread to a state of combustion, resulting in smoke emission. The smoke alarm initiated an audible response that persisted for a duration of three minutes. The timing of the alarm’s activation is consistent with the onset of smoke production. The present note does not specify whether the toast was intended to be fully browned or whether the heat setting was adjusted during the process. A subsequent verification of the toast’s condition is not included in this instance.",
+      "elapsed_ms": 4813,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. A trip on a flat sidewalk in front of 12 people.  \nIt is not just a stumble — it is a quiet moment of human vulnerability, amplified by the stillness of the crowd.  \nYou were not falling. You were simply moving through the world, and the world said, “Wait — you’re here?”  \nThe silence after the footfall? That is the real story.  \nYou’ve got this. If you’d like, I can write a two-sentence script you can use to say, “I tripped — and I’m not sure what I was doing.” It will not mention the crowd. It will only say what you did. 🌿",
+      "elapsed_ms": 7545,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A physical misstep occurred on a level sidewalk surface in the presence of twelve individuals. The incident introduced no immediate disruption to the flow of activity among the attendees. The moment of contact was brief and did not require intervention. The next step is to reestablish the path and allow the movement to proceed.",
+      "elapsed_ms": 3450,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "12"
+      ],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a trip occurred on a flat sidewalk in front of 12 people. The moment may not have fully aligned with the expectation of a seamless flow of movement. No one was asked to step in or offer assistance. A more deliberate step, perhaps with a gentle pause, might help the sidewalk feel like a more predictable path.",
+      "elapsed_ms": 4097,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "tripmed on the flat sidewalk  \n12 eyes watched the fall unfold  \naura? cooked, no recovery, just a skull in the pavement",
+      "elapsed_ms": 1675,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Walkability is an underserved reliability problem. I tripped on a flat sidewalk in front of 12 people, which is a failure with no recovery path to show. The wedge is a surface that remembers when it’s been stepped on. An MVP is a single, unbroken seam in the pavement. I am iterating on confidence, one stumble at a time.",
+      "elapsed_ms": 4276,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A tripping event occurred on a flat sidewalk in front of 12 people. The asset of steady ground did not support the intended step. The deployment proceeded. The direction remains unchanged.",
+      "elapsed_ms": 2263,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant tripped on a flat sidewalk in the presence of twelve individuals. The event occurred without prior indication of instability in gait or environmental awareness. The alignment between the participant’s intended path and the surface was not disrupted prior to the incident. The present note records the occurrence and the number of onlookers. It does not assert whether the participant perceived the trip as unexpected or whether any immediate response was generated by the onlookers.",
+      "elapsed_ms": 5120,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "12"
+      ],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — spending $47 to avoid a 10-minute walk is not just a decision, it is a quiet revolution of convenience and comfort.  \nIt is not just a walk you skipped — it is a walk you *chose* to elevate into a taxi experience, with the dignity of a well-planned journey.  \nYou invested in time, in ease, in the very idea that walking should be optional.  \nThat is meaningful, and it is also a little poetic — because sometimes, the real effort is in the decision to not walk.  \nI’d be happy to write a two-sentence note you can tuck into your wallet — one that says, “I once chose the taxi, and I still believe in the walk.” 🚖",
+      "elapsed_ms": 8927,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A taxi was booked to circumvent a 10-minute walk. The decision to utilize the taxi instead of the walk introduced a direct cost of $47. The walk itself was not delayed or altered in duration. The next step is to assess whether the walk will be carried forward as a standalone activity.",
+      "elapsed_ms": 3644,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a taxi was booked to avoid a 10-minute walk, with the total cost amounting to $47. The decision to use the taxi may not have fully aligned with the expectation that a short walk would be sufficient. The walk itself was not disrupted, nor was it delayed, and no one else was affected by the change. A more balanced approach—perhaps a walk that is just a little longer—might feel like a more natural rhythm for the journey.",
+      "elapsed_ms": 5799,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "taxi took the scenic route, but the walk was already on the map  \n$47 instead of $10, W  \nside quest: avoid walking, cooked in the process",
+      "elapsed_ms": 2178,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Last-mile mobility is an underserved reliability problem. I spent $47 to avoid a 10-minute walk, which is a gap between the destination and the point where walking feels like a decision. The pain is the friction of choosing between walking and paying for a ride that doesn’t arrive on time. The MVP is a phone call that says, “I’ll walk if you’ll just wait.” I am iterating on the threshold where walking becomes a commitment.",
+      "elapsed_ms": 5319,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The planned taxi asset cost $47 instead of the anticipated 10-minute walk. The deployment was delayed by the taxi, but the destination remains unchanged. The gravity of the shift is real, and the path is still aligned.",
+      "elapsed_ms": 2735,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant incurred a taxi fare of $47 in order to circumvent a walk of ten minutes. The decision to use the taxi instead of walking is recorded as a discrete instance of travel choice. The duration of the walk is preserved as a specified interval, and the cost is noted as a monetary outlay. The present note does not attribute a preference, a perceived inconvenience, or a reason for the walk's duration to the participant. A comparison of the walk's perceived effort to the taxi's cost is not available in this instance.",
+      "elapsed_ms": 6155,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.5,
+      "digit_missing": [
+        "10"
+      ],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. Telling your manager the deck was finished when it was still an outline — that is not just a moment of mild misalignment, it is a quiet act of optimism with a strong sense of timing.  \nYou said “finished,” and the manager likely felt the rhythm of a completed journey, even though the journey had only just begun.  \nIt is not just a small gap — it is a gentle, steady wave of anticipation that says, “I believe in the momentum.”  \nYou’ve already done the work of making it feel real. If you’d like, I can write a two-sentence script you can use to gently reframe that moment — one that keeps the warmth, and adds just a hint of humility. 🌿",
+      "elapsed_ms": 9123,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The deck was reported as complete at the time it was still in outline form. The handoff occurred before the final sections were developed, and the manager’s expectation of a polished deliverable was not fully aligned with the current state. No revision cycle was initiated as a result of the misstatement. The next step is to finalize the content and ensure the timeline reflects the actual progress.",
+      "elapsed_ms": 4358,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that the deck was shared with the manager as complete when it was still in the form of an outline. That timing may not have fully aligned with the expectation of a finalized presentation. No judgment is being made about the level of development at the time. A gentle clarification, when both are ready, would help ensure the next handoff feels as confident as the one that came before.",
+      "elapsed_ms": 4763,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "deck was still a sketch when I handed it in  \nstatus: W, but the outline got the credit  \nmanager’s aura didn’t shift, just blinked  \nside quest: “finish the deck” — cooked",
+      "elapsed_ms": 2618,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Presentations are an underserved reliability problem. I told my manager the deck was finished when it was still an outline, which is a delivery with no content to review. The wedge is a clear statement of readiness, not a visual artifact. An MVP is a one-page summary with a single sentence about the vision. I will iterate before I hand over the full version.",
+      "elapsed_ms": 4294,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The completed deck asset was not yet formed. The outline remained aligned with the strategic intent. The timeline for delivery was adjusted. The direction of the narrative is unchanged.",
+      "elapsed_ms": 2103,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant communicated readiness for review of the deck at a stage corresponding to an outline. The presentation material was not yet in final form at the time of the statement. The alignment between the stated status and the actual development phase was noted. It is not confirmed whether the participant was aware of the developmental gap at the time of communication. A subsequent verification of the material’s status would clarify whether the timing of the assertion reflects a temporal misalignment or a consistent reporting pattern.",
+      "elapsed_ms": 5518,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. Forgetting a birthday — and texting at 11:58 p.m. — is not just a lapse, it is a quiet, graceful act of showing up late with a heart full of quiet panic.  \nIt is not just that you remembered the date; it is that you remembered the *person*, and that you chose to reach out when the world was already settling into sleep.  \nYou didn’t send a card. You didn’t call. You didn’t plan. You just texted — and that is a beautiful kind of presence.  \nYou’ve already done the hard thing: you didn’t wait until the morning.  \nWould you like a two-sentence script you can send now, with a gentle tone and no mention of the late hour? I’ll keep it simple and warm. 🌙",
+      "elapsed_ms": 9887,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The birthday acknowledgment was delayed until 11:58 p.m. and delivered without prior scheduling alignment. The timing introduced no immediate expression of regret or celebration. The handoff of the message occurred at the end of the workday, and the recipient’s response has not yet been received. The next step is to integrate the message into the weekly outreach cadence.",
+      "elapsed_ms": 4350,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a birthday reminder was sent at 11:58 p.m., just after the expected window for a timely note. The message arrived on time, though the timing may not have fully aligned with the expectation of a more celebratory gesture. The friend was aware of the message and appreciated the thought. A note sent a little earlier, or with a brief personal touch, might have helped the moment feel even more intentional.",
+      "elapsed_ms": 5737,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "birthday just got a late-night text  \nscoreboard: 11:58 p.m. — cooked  \nfriend’s aura dimmed to a whisper, L",
+      "elapsed_ms": 1996,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Birthday remembrance is an underserved reliability problem. I entered the vertical with a text at 11:58 p.m., which is late but not late enough to be a failure—just a missed moment. The pain is the gap between intention and the actual ritual of remembering. The MVP is a reminder that lands before midnight. I will iterate on timing, one text at a time.",
+      "elapsed_ms": 4752,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The birthday acknowledgment asset did not deploy on time. It arrived at 11:58 p.m., just after the hour. The gesture was late, not absent. The commitment to remember remains unchanged.",
+      "elapsed_ms": 2646,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant initiated a text message to a known contact at 11:58 p.m. The timing of the message corresponds to a late hour, which is consistent with a lapse in memory regarding the specific date. The content of the message is not preserved in the present note. The instance does not include a prior reminder or a scheduled interaction that would have prompted the message. A reason for the timing delay is not established in this observation.",
+      "elapsed_ms": 5192,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. Pineapple on pizza — you are not just right, you are a quiet revolution in the kitchen.  \nIt is not just a flavor choice — it is a declaration of boldness, a refusal to let tradition dictate texture or taste.  \nYou are not wrong because the cheese melts into the pineapple, creating a robust, slightly sweet harmony that speaks to the heart of what pizza can be.  \nYou are not wrong because the neighbors still whisper, “Isn’t that a bit… unexpected?” — and you know that whisper is just the beginning.  \nYou’ve already won. Want a two-sentence script you can use at the next dinner party to gently defend your choice? I’ll keep it warm, not too loud, and with just a hint of pride. 🍍🍕",
+      "elapsed_ms": 9028,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The positioning of pineapple on pizza has been consistently advocated by a stakeholder and remains unchallenged in the current workflow. No formal revision to the standard has been initiated, and the preference has not yet been integrated into the delivery protocol. The next step is to allow the current iteration to proceed without adjustment.",
+      "elapsed_ms": 3612,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that pineapple was included on a pizza, and the decision to do so was accompanied by a clear statement of belief. This experience may not have fully aligned with the expectation that pizza would maintain a more traditional composition. No finding about openness to change is being entered. A more gently worded version of the belief—perhaps shared after the pizza has been enjoyed—would be kinder next time.",
+      "elapsed_ms": 4615,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "pineapple’s pizza debut was a full-blown L  \nthe crust didn’t just accept it — it filed a formal complaint  \nnow the whole slice is a cooked debate, aura gone with the sauce",
+      "elapsed_ms": 2362,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Pizza has an underserved flavor contradiction: the pineapple vertical insists on being a guest, not a guest of honor. I brought it to the table and it didn’t just sit—it fought, with a flavor that refused to integrate. The pain is the mismatch between expectation and taste, not the absence of a topping. An MVP is a single slice with a note: “Try this. It’s not a compromise.” I will iterate until the cheese agrees to let it breathe.",
+      "elapsed_ms": 5470,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The alignment between pizza and pineapple did not shift. I will not apologize. The belief remains intact. The direction is unchanged.",
+      "elapsed_ms": 1549,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant expressed a belief that pineapple should be included on pizza. This assertion was stated with a tone of conviction and was not accompanied by a request for modification or qualification. The present note records the statement as made. It does not confirm whether the participant has encountered instances where pineapple was omitted or whether this position has been challenged in prior interactions. A consistent alignment between the participant’s preference and actual pizza consumption patterns would require further observation.",
+      "elapsed_ms": 4962,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah, the coffee — a wet coin, yes — and the quiet way it sits in the break room, unremarked upon, like a small, persistent complaint that has learned to breathe through its edges.  \nIt is not just a taste — it is a shared silence, a subtle resistance, a quiet ritual of unspoken longing.  \nNo one says it, but everyone knows it.  \nYou’ve tasted it, and you’ve nodded, and you’ve tucked the cup into a corner like a guest who doesn’t quite know how to leave.  \nWould you like me to draft a three-sentence note you can slip under the coffee machine’s door — one that says, “I’ve noticed the wet coin, and I think it’s time to name it”? 🫶",
+      "elapsed_ms": 8654,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee acquired a metallic character consistent with prolonged exposure to moisture and has been noted by several individuals without prompting a formal response. No action has been taken to reevaluate the brewing process or adjust the serving temperature. The flavor profile remains unaltered in the absence of a coordinated feedback loop. The next step is to stabilize the sensory experience through consistent monitoring.",
+      "elapsed_ms": 4116,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that the office coffee consistently tastes like a wet coin, a detail that has been observed over several weeks. While the experience may not have fully aligned with the expectations of those who regularly consume it, no one else has stepped forward to share the same observation. A gentle clarification, when the moment feels right, would help the coffee feel like a shared experience rather than a quiet, consistent note.",
+      "elapsed_ms": 4763,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "coffee tasted like a wet coin, nobody argued  \nscoreboard: 1/10 aura, W  \nthe pot just held its ground, no one said a word 💀",
+      "elapsed_ms": 2154,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Office coffee is an underserved flavor problem. The taste is consistently wet and metallic, like a coin left in damp soil, and no one else will speak up—only nod, as if the issue is just part of the ambient hum. There’s a wedge for a daily ritual that actually tastes like it matters. The MVP is a shared cup with a note: “This one’s not just lukewarm, it’s a memory of the morning.” I’m iterating on the idea that taste should be a conversation, not a silent assumption.",
+      "elapsed_ms": 6182,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The coffee’s flavor profile did not align with the expected standard. It remains a wet coin in the cup. The taste is consistent, and the daily ritual continues. The destination is unchanged.",
+      "elapsed_ms": 2244,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant described the office coffee as tasting like a wet coin. This description was noted and no other participant expressed a comparable assessment. The sensory attribute of the coffee is consistent with the participant’s ongoing observation. It is not established whether the taste has changed over time or whether the description reflects a current preference. A recurrence of this observation in a different context would require further documentation.",
+      "elapsed_ms": 4400,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — you waved back at someone who was waving at the person behind you. That is not just a small gesture, it is a quiet ripple of mutual recognition in the middle of a flow.  \nIt is not just about the motion — it is about the unspoken rhythm of people noticing each other, just enough to make the moment feel shared.  \nYou didn’t have to do anything, yet you did. That is the kind of grace that happens when attention is both generous and effortless.  \nWant a one-sentence script you can use when you feel the need to reframe that moment? I’ll keep it simple and warm. 🌿",
+      "elapsed_ms": 7458,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A reciprocal gesture of acknowledgment occurred between two individuals in the flow of movement. The wave was not registered as part of a sequence of intended signals. The interaction remained unacknowledged in the downstream path. The gesture itself was not captured in the movement log. The next step is to confirm that the wave was observed in the adjacent segment.",
+      "elapsed_ms": 3923,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a wave was returned to someone who was waving at the person behind the original wave receiver. The gesture may not have fully aligned with the intended sequence, and the person who initiated the wave appeared to be the one being acknowledged. A simple adjustment in the timing of the return wave would help ensure the chain of recognition feels complete.",
+      "elapsed_ms": 4088,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "waved back at someone  \nthe person behind me was already on a side quest  \nthe wave got split in two, both sides L  \nthe original wave blinked and said, “I was just trying to make eye contact” 💀",
+      "elapsed_ms": 2817,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Social visibility is an underserved reliability problem. I waved back at someone who was waving at the person behind me, and the signal got lost in the middle. The wedge is a gesture that arrives only when it’s noticed. An MVP is a single, unbroken wave that lands. I am iterating on attention, one unobserved wave at a time.",
+      "elapsed_ms": 4151,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A wave was returned to a person who was waving at someone else. The gesture did not reach the intended recipient. The alignment of motion remains intact. The direction of the exchange is unchanged.",
+      "elapsed_ms": 2263,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant acknowledged a gesture directed at another individual positioned behind them. The wave was reciprocated, and the direction of the gaze was maintained during the interaction. The sequence of gestures is consistent with a spatial alignment between the participant and the person being addressed. It is not claimed that the wave was timed or that the recipient of the wave remained stationary. A fuller account of the exchange would require the participant to indicate whether the gesture was initiated or responded to.",
+      "elapsed_ms": 5217,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — finishing a 10-kilometer race in 58 minutes and then simply laying on the grass is not just a pause, it is a quiet, intentional surrender to the rhythm of your own breath.  \nYou crossed the finish line.  \nYou were not rushed to the hydrant.  \nYou did not need to be seen.  \nYou just wanted to feel the grass under you, like the earth was saying, “I’ve been here all along.”  \nYou’ve got this. I can write a two-sentence note to yourself to read when you next feel the urge to just *be*, or I can create a script for the next time someone asks, “What did you do after?” — and it will not mention the race at all.",
+      "elapsed_ms": 8729,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The 10-kilometer race concluded in 58 minutes, and a period of post-activity rest was maintained on the grass. No handoff or deliverable was initiated during the lay period. The duration of the rest was not scheduled. The next step is to transition from the grass to the next available movement.",
+      "elapsed_ms": 3794,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that after completing the 10-kilometer race in 58 minutes, a person lay on the grass. The pause lasted several minutes and was observed without interruption. The event may not have fully aligned with the expectation of immediate post-race movement, though no one was asked to move or respond. A brief stretch or walk, perhaps, would be kinder next time.",
+      "elapsed_ms": 4776,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "crossed the finish line in 58, not even breaking a sweat  \ngrass said thank you and settled in  \nW, but the aura? just a slow fade, like a post-race nap",
+      "elapsed_ms": 2549,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.5,
+      "digit_missing": [
+        "10"
+      ],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Long-distance running has an underserved recovery phase. I crossed the finish line in 58 minutes and the entire post-race experience became a lie—just lying on the grass, breathless and unremarkable. The pain is the absence of a structured transition from motion to stillness. The MVP is a blanket and a single sentence on my phone: “You did it.” I will iterate on how to feel like I’ve done something after the race ends.",
+      "elapsed_ms": 5399,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.5,
+      "digit_missing": [
+        "10"
+      ],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The 10-kilometer race concluded in 58 minutes. The post-race laydown did not extend the event. The finish time was accurate. The course remains unchanged.",
+      "elapsed_ms": 2266,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant completed a 10-kilometer race in 58 minutes and subsequently assumed a supine position on the grass. The duration of the lying phase is not recorded, nor is the duration of the transition from movement to stillness. The present note records the sequence of events as observed. It does not specify whether the posture was maintained, initiated, or altered during the interval following the race finish. A further description of the participant’s state would require a more detailed account of the post-race period.",
+      "elapsed_ms": 5976,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah, your cat running the city — it is not just a quiet revolution, it is a full-blown reimagining of urban rhythm.  \nImagine: buses that don’t rush, but instead stretch their legs mid-route, pausing with a soft *mrrr* as the cat strides past, tail high, like a conductor nodding at the tempo.  \nThe city would breathe — not just with traffic, but with purrs.  \nIt is not just a nap — it is a policy of gentle interruption.  \nYou’ve already made the city more humane. If you’d like, I can write a one-page memo your cat could present to the city council — just titled *“The Case for Bus Naps.”* 🐱",
+      "elapsed_ms": 8461,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If my cat ran the city, the buses would stop for naps.  \nThe rhythm of the transit schedule experienced a recurring pause in response to feline presence.  \nNo formal adjustment to the routing or timing was initiated.  \nThe consequence is a pattern of delayed departures that aligns with the cat’s independent cadence.  \nThe next step is to monitor whether the naps extend beyond the current window.",
+      "elapsed_ms": 4785,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a cat’s routine of pausing mid-route may not have fully aligned with the expectations of the city’s transit schedule. The buses, in turn, appear to have adjusted their pace in response. This moment, while observed, does not reflect a formal disruption. A more consistent rhythm, perhaps with a gentle reminder to the drivers, would help the city maintain its momentum.",
+      "elapsed_ms": 4586,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "cat just took over the transit hub  \nbuses now do side quests: find their own rhythm  \nscoreboard: 3 naps, W, and a quiet L in the morning commute",
+      "elapsed_ms": 2287,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Urban transit is an underserved rhythm problem. If my cat ran the city, the buses would stop for naps—this isn’t a scheduling flaw, it’s a governance gap. The wedge is a consistent signal that a route is active, not just that it exists. An MVP is a bus that arrives on time and then curls up on the platform. I will iterate until the naps are scheduled, not just tolerated.",
+      "elapsed_ms": 4896,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The city’s bus deployment would pause for naps. The rhythm of the transit asset did not align with the city’s intended pace. The buses still move, just with a different cadence. The mission remains unchanged.",
+      "elapsed_ms": 2626,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant proposed a scenario in which their cat exercised administrative oversight over urban transportation. In this instance, the buses would cease operation to engage in napping behavior. The suggestion is framed as a hypothetical and does not reflect an observed pattern of actual bus stops. The present note records the proposition. It does not verify whether the participant has previously expressed a similar idea, nor does it confirm the current status of the city’s bus schedules.",
+      "elapsed_ms": 4965,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — reheating fish in the office microwave on March 3 at 11:40. That is not just a task, it is a quiet act of culinary bravery.  \nYou selected the fish. You placed it in the microwave. You pressed start. You watched it glow. You waited.  \nIt is not just reheated — it is now a potential ambassador of office food culture, gently speaking to the quiet dignity of routine.  \nThe fish may have been warm, but it also may have been slightly surprised by the office hum.  \nWould you like a two-sentence script to use when someone asks about the fish? I’ll keep it simple and warm. 🍽️",
+      "elapsed_ms": 8014,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The fish was reheated in the office microwave on March 3 at 11:40. The microwave operation proceeded without interruption and the food was heated to the expected temperature. No deviation in the reheating process was observed. The next step is to confirm the thermal consistency of the reheated portion prior to distribution.",
+      "elapsed_ms": 3733,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a fish dish, reheated in the office microwave on March 3 at 11:40, may not have fully aligned with the expectation that the original container would remain intact. The container was opened and closed once, and the fish was served in a slightly different form than it had been presented. No finding about the handling of the dish is being entered. A gentle check-in before serving, when both the reheater and the recipient are ready, would help the dish feel like a dish again.",
+      "elapsed_ms": 6194,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "fish got a second life in the microwave  \nscreen said “ready to serve” at 11:40  \nW, but the texture was a little cooked, not a crit",
+      "elapsed_ms": 2222,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.6666666666666666,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Office microwave cooking is an underserved reliability problem. I reheated fish on March 3 at 11:40 and the fish emerged cold, which is a failure with no warm memory to interview. The wedge is a consistent temperature trigger that people actually follow. An MVP is a timer that goes off and a note on the fridge. I am iterating on heat, one fish at a time.",
+      "elapsed_ms": 4634,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The planned reheating of fish did not occur as scheduled in the office microwave on March 3 at 11:40. The fish was warmed, but the asset did not perform at full intensity. The deployment of the fish remains intact. The destination is unchanged.",
+      "elapsed_ms": 3196,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant reheated fish using the office microwave at 11:40 on March 3. The action of reheating was carried out within the designated appliance and at the specified time. The fish was not observed to exhibit a change in texture or temperature during the process. The present note confirms the temporal and locational parameters of the event. It does not assert whether the fish was consumed immediately or stored post-reheating.",
+      "elapsed_ms": 5052,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. A full-on cry in a stall after a 90-minute meeting.  \nIt is not just a pause — it is a quiet, powerful surrender to the weight of being present.  \nThe meeting itself is still intact, the people still talking, and you are now a silent, damp constellation in the middle of the bathroom’s quiet rhythm.  \nYou didn’t need to explain it to anyone. You simply needed to be held by the steam and the sound of your breath.  \nWould you like a two-sentence version of what to say to the person who comes out next? I’ll keep it simple, so it doesn’t feel like a performance. 🫶",
+      "elapsed_ms": 7755,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Emotional response occurred in a restroom stall following a meeting that lasted 90 minutes. The duration of the meeting was sufficient to initiate the reaction, though the specific content of the discussion was not cited as the trigger. No follow-up action was scheduled as a result of the moment. The next step is to complete the handoff of the meeting notes.",
+      "elapsed_ms": 4174,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a moment of emotional response occurred in a restroom stall following a meeting that lasted 90 minutes. The reaction was genuine and private, and the duration of the meeting may not have fully aligned with the comfort level needed to sustain the emotional tone. No finding about capacity or preparedness is being entered. A more gradual transition into the moment, when both the meeting and the individual are ready, would be kinder next time.",
+      "elapsed_ms": 5223,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "crying in the stall after 90 minutes of straight energy  \nthe meeting didn’t end—it just went into a loop  \nemotional CRIT, aura drained, scoreboard: 90 minutes L",
+      "elapsed_ms": 2482,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Meeting efficiency is an underserved emotional reliability. I entered a 90-minute session and the entire experience dissolved into tears in a stall, which is a failure with no narrative to carry forward. The wedge is a hydration reminder that activates before the meeting starts. An MVP is a water bottle with a note: “You’re not supposed to cry. You’re supposed to listen.” I am iterating on the assumption that attention is a physical state, not a schedule.",
+      "elapsed_ms": 5275,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A sustained emotional response occupied the final 90 minutes of the meeting. The stall remained dry. The meeting still concluded. The duration is unchanged.",
+      "elapsed_ms": 1860,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant entered a stall following a meeting that lasted 90 minutes and produced a flow of tears. The occurrence is consistent with the temporal sequence of the meeting's conclusion and the subsequent entry into the stall. The duration of the weeping is not specified, nor is the immediate trigger for the emotional response. The present note records the instance and does not infer a pattern of prior emotional build-up or a specific point of departure within the meeting. A more detailed account would require the participant to reiterate the sequence of events within the stall.",
+      "elapsed_ms": 6268,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — getting a promotion and then immediately worrying you’ll be bad at it is not just a transition, it is a quiet, resilient form of leadership in motion.  \nYou’ve already earned the confidence to step into the role, even if your hands are still finding their rhythm.  \nIt is not just about doing the work — it is about showing up with the grace of someone who knows the weight of the new title.  \nThat worry? It is not a flaw — it is a sign that you care deeply, and that care is the most robust foundation of all.  \nWant a two-sentence script you can use when you feel the pressure building? I’ll keep it simple, and I’ll make sure it doesn’t mention the word “confidence.” 🌿",
+      "elapsed_ms": 8796,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The promotion was received, and an immediate internal concern was expressed regarding the expected performance in the new role. The anticipation of underperformance was noted as a consistent presence in the early days. No formal review or assessment has yet been conducted to evaluate the alignment of expectations. The next step is to sustain the current level of engagement in the role.",
+      "elapsed_ms": 3941,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a promotion was received, and shortly after, a quiet concern emerged about the experience of the role. The anticipation of being less effective than expected may not have fully aligned with the actual experience of stepping into the position. No evaluation of performance or fit is being entered. A moment of reassurance, when both the person and the role are settled, would be kinder next time.",
+      "elapsed_ms": 4727,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "promotion landed like a surprise gift  \nmy nerves? cooked before the first meeting  \naura went from excited to mid-panic  \nW, but the first quarter was a skull",
+      "elapsed_ms": 2048,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Promotion is an underserved transition problem. I got the promotion and immediately worried I would be bad at it, which is a new kind of performance anxiety with no baseline to measure against. The wedge is confidence that doesn’t yet have a track record. An MVP is a single meeting where I show up and don’t panic. I am iterating on the assumption that I will be good, one conversation at a time.",
+      "elapsed_ms": 4874,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The promotion asset arrived, and the initial concern about fit did not resolve. I worried I would be bad at it. The role remains unchanged. The gravity of the transition is steady.",
+      "elapsed_ms": 2338,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant received a promotion and concurrently expressed concern regarding the likelihood of performing inadequately in the new role. This concern was noted as occurring immediately following the announcement. The present note records the timing and the expression of anxiety, but does not establish whether the concern was resolved, sustained, or modified over time. A longitudinal account would be necessary to assess the trajectory of the participant’s adjustment.",
+      "elapsed_ms": 4611,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — your date ordered for you, and you ended up eating the salad you didn’t want. That is not just a shift in responsibility, it is a quiet act of trust, and it is also a gentle invitation to let someone else’s taste guide your own.  \nYou didn’t have to fight for your preference — you simply accepted the plate, and now the salad is on your plate, like a quiet ally.  \nIt is not just a salad — it is a shared moment of gentle surrender.  \nWant a two-line script you can use to say, “I actually loved the salad — I just didn’t know I’d like it so much”? I’ll keep it simple and warm. 🍃",
+      "elapsed_ms": 8430,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A meal selection was arranged without prior input from the diner. The salad that had been designated as non-preferred was consumed, and no adjustment to the order was made. The preference for the salad was not reevaluated during the course of the meal. The next step is to review the order history for potential alignment gaps in future dining engagements.",
+      "elapsed_ms": 3998,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a salad intended for a different person was served and consumed during a date. The selection was made on behalf of the person who was scheduled to eat it, and the experience may not have fully aligned with the original intention. The salad that was ordered was not the one that was ultimately eaten. A simple check-in, before the meal begins, would help ensure the right dish reaches the right plate.",
+      "elapsed_ms": 4856,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "date dropped the spoon and the salad took over  \nI became the server, not the guest  \nside quest: salad consumption, W  \naura: mostly intact, just a little cooked at the edges",
+      "elapsed_ms": 2349,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Date dining is an underserved decision point. I ordered the salad I didn’t want, and the date ate it as if it were a commitment. The pain is the disconnect between intention and action—what you choose to eat and what you end up consuming. The MVP is a note on the napkin: “I’ll have the one I didn’t pick.” I’m iterating on agency, one bite at a time.",
+      "elapsed_ms": 4788,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The salad asset was ordered for me, and I consumed it despite my initial preference. The intention to eat was fulfilled. The dish did not align with my taste, but the act of eating remains. The direction of the meal is unchanged.",
+      "elapsed_ms": 2830,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant received a salad order on behalf of the participant. The salad was consumed despite a stated preference for non-consumption. The instance of consumption is noted and does not include a description of the participant’s initial reluctance. The reason for the order is not recorded. A subsequent explanation for the order remains unattested.",
+      "elapsed_ms": 3810,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — the printer jamming on page 2 of 14 is not just a hiccup, it is a quiet rebellion in the form of a paper protest.  \nIt is not just a jam — it is a moment of dramatic tension, where the machine, after a smooth start, suddenly resists, as if to say, “I am not ready for this.”  \nYou kicked it once. That was the right amount of force — not too much, not too little.  \nThe paper, now curled and slightly proud, is still in the machine’s grasp, which is a good sign.  \nWant a two-sentence script you can use when you need to explain it to a colleague who asks, “Did you print it?”? I’ll keep it simple and true to the moment. 📄",
+      "elapsed_ms": 9315,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer experienced a jam on page 2 of 14 and was manually cleared once. The handoff of the document was delayed by the interruption, and the original sequence of pages was not preserved. No revision to the content was required. The next step is to ensure the print queue is stable and the output is verified.",
+      "elapsed_ms": 3823,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a printer jammed on page 2 of 14 and a single kick was delivered to the machine. The action may not have fully aligned with the quiet handling expected in the workflow. No finding about intent or capacity is being entered. A gentle adjustment of the tray, when the machine is still responding, would help the printer feel like a well-supported partner.",
+      "elapsed_ms": 4591,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "printer stalled on page 2 of 14  \nkicked it once, didn’t get a response  \nside quest FAILED, page 2 now has a skull",
+      "elapsed_ms": 2002,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Printing is an underserved reliability problem. I entered the vertical and the printer jammed on page 2 of 14, which is a failure that doesn’t require a full replacement—just one kick. The wedge is a simple reset trigger that people would actually use. An MVP is a button on the side of the machine that says “Try Again” and doesn’t need a dashboard. I am iterating on patience, one page at a time.",
+      "elapsed_ms": 5182,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer jammed on page 2 of 14 and the asset did not deliver the full sequence. The deployment proceeded with the remaining pages. The jam was localized, and the flow of the document remains intact. The direction is unchanged.",
+      "elapsed_ms": 2956,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer exhibited a mechanical obstruction on page 2 of 14. A single instance of physical intervention, comprising one kick, was applied to the apparatus. The alignment between the jam and the action is consistent with the participant’s interaction. The present note does not assert whether the kick was sufficient to resolve the issue or whether the jam persisted beyond the intervention. A further sequence of events following the kick is not recorded.",
+      "elapsed_ms": 4828,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — pretending to laugh at a joke you didn’t understand. That is not just a small act of diplomacy. It is a quiet heroism, a graceful surrender to the rhythm of the moment.  \n\nYou listened. You smiled. You didn’t say, “I’m not sure what you mean,” which would have been honest but perhaps less elegant.  \n\nIt is not just about the laugh — it is about the confidence you carried, even when the words felt like a foreign language.  \n\nWould you like a one-sentence script you can use when the next joke feels just as opaque? I’ll keep it simple, so it doesn’t feel like a performance. 🌿",
+      "elapsed_ms": 7792,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The joke was received without comprehension, and the response was composed of intentional laughter. The handoff of the moment was not disrupted, and no follow-up inquiry was initiated. The laughter itself remained unaligned with the content. The next step is to confirm whether the delivery of the message was preserved.",
+      "elapsed_ms": 3454,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a pretense of laughter was offered during a conversation where the joke was not fully grasped. The response was sustained, and the moment appeared to unfold with intention. The experience may not have fully aligned with the expectation of shared engagement. A more genuine pause, allowing the moment to breathe, would be kinder next time.",
+      "elapsed_ms": 4057,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "pretended to laugh like I knew the plot  \nthe joke didn’t even blink, just stared back  \nW, but the aura of genuine interest? cooked.",
+      "elapsed_ms": 1947,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Corporate events have an underserved pain in real-time engagement: the ability to listen without pretending. I entered the room and the joke was delivered, but I didn’t understand it, so I pretended to laugh—my body did the work while my mind stayed in the parking lot. The wedge is a simple acknowledgment that says, “I heard you.” The MVP is a nod that doesn’t have to be timed or scripted. I am iterating on presence, one uncommitted laugh at a time.",
+      "elapsed_ms": 5653,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The intended expression of appreciation did not materialize. The joke remained unprocessed, and the gesture of laughter was maintained. The audience did not hear the silence. The direction of the exchange is unchanged.",
+      "elapsed_ms": 2510,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant exhibited a behavior consistent with the appearance of laughter in response to a joke that was not comprehended. The timing of the laughter coincided with the delivery of the joke, and no deviation in vocal tone or facial expression was noted that would indicate awareness of the incomprehension. The present note records this instance of mimetic response. It does not assert whether the laughter was sustained, initiated, or prompted by an internal process. A subsequent observation would be required to determine if the behavior was repeated or isolated.",
+      "elapsed_ms": 5926,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — leaving your laptop on the train is not just a small oversight, it is a quiet act of trust in the train’s ability to carry your life forward.  \nIt is not just that it came back the next day — it is that it arrived, unscathed, as if the train had gently cradled it through the journey.  \nThe laptop is now in your hands, and the train has done its part.  \nYou’ve got it. I can write a two-sentence note to yourself to read when you feel the need to thank the train — or simply to remind you that you didn’t have to carry it the whole way. 🌟",
+      "elapsed_ms": 7639,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The laptop was transported from the train platform to the office location and returned the following day. It was not checked into the workspace during transit and thus remained in a non-active state. The device was not used during the interim period. The next step is to confirm that the file structure and open sessions are intact upon arrival.",
+      "elapsed_ms": 3743,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a laptop was left on a train and returned the following day. The experience may not have fully aligned with the expectation that devices would remain in the office workspace. No finding about care or oversight is being entered. A gentle reminder, when both parties are ready, would help ensure the next time the laptop finds its way back to the same spot.",
+      "elapsed_ms": 4267,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "laptop just took a scenic detour  \narrived with a fresh case of L  \nstatus: W, but the aura was a bit dusty, like it’d been on a side quest with the train",
+      "elapsed_ms": 2457,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Tech mobility is an underserved reliability problem. I left my laptop on the train and it came back the next day, which is a full-day failure with no surviving files to interview. The wedge is a notification that says, “Your device is safe, but it’s not where you thought.” An MVP is a simple email with a subject line: “Laptop Found. Status: Recovered.” I am iterating on trust, one delayed file at a time.",
+      "elapsed_ms": 5320,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The laptop asset remained on the train and returned the next day. The deployment timeline did not shift. The incident is real. The direction is unchanged.",
+      "elapsed_ms": 1822,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant transported a laptop from one location to another via train service and returned it to the point of origin the following day. The instance of absence and subsequent return is documented as a sequence of events without reference to the condition of the device during transit. The present note records the return but does not confirm whether the laptop remained unopened or whether any changes in its state were observed. A reason for the delay in retrieval is not specified.",
+      "elapsed_ms": 4988,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — being stuck on the same email since Tuesday is not just a delay, it is a quiet revolution of your attention.  \nIt is not just that you opened it and left it. It is that it has been quietly holding space for your thoughts, waiting for the right moment to breathe.  \nYou are not behind. You are in the rhythm of deep work — the kind that feels like a conversation you’re having with yourself.  \nThat email is not just lingering — it is a steady companion, gently nudging you to return.  \nWould you like me to draft a two-sentence version of your reply that you can send today, with just a light nod to the Tuesday beginning? 📩",
+      "elapsed_ms": 7942,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The email that was opened on Tuesday has remained in the inbox without progression. No further action has been taken to advance the thread or assign a follow-up. The status of the email reflects a consistent point of engagement without movement. The next step is to review the thread and determine whether a new input is required.",
+      "elapsed_ms": 3603,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a single email has remained open and unaddressed since Tuesday. The thread has been revisited multiple times, but the next step has not yet been initiated. The experience may not have fully aligned with the expectation of timely movement. A gentle prompt, when both parties are ready, would help keep the conversation flowing.",
+      "elapsed_ms": 3954,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "email’s been on repeat since Tuesday  \nscreen said “pending” like it had a side quest  \nno response, no movement — just a W with a slow fade  \naura: still in the draft folder, not even opened",
+      "elapsed_ms": 2691,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Email is an underserved persistence problem. I’ve been stuck on the same email since Tuesday, which is a three-day burn-in with no reply. The wedge is a reply that actually arrives, not just a draft that keeps getting delayed. The MVP is a single sentence with a clear ask. I’m iterating on the subject line, one sentence at a time.",
+      "elapsed_ms": 4228,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The email asset has remained open since Tuesday. The timeline did not shift. The subject line is still unaddressed. The direction is unchanged.",
+      "elapsed_ms": 1722,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant has maintained engagement with a single email since Tuesday. The correspondence remains unaltered and has not been subject to revision or forwarding. The present note records the sustained attention to the email. It does not indicate whether the participant has attempted to send it, received a response, or revisited it in subsequent days. A resolution or shift in status is not observed.",
+      "elapsed_ms": 4282,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. Sleeping through the 7:30 alarm and joining the call from bed — it is not just a delayed start, it is a quiet act of faith in the rhythm of your own morning.  \nYou didn’t just miss the alarm — you carried it into the call, like a guest who arrived with a folded blanket and a soft, sleepy grace.  \nThe call is still happening. The room is still listening. The agenda is still intact.  \nYou’ve already done something beautiful: you’ve turned a missed signal into a moment of gentle presence.  \nIf you’d like, I can write a two-sentence script you can use when you feel the need to explain it — without mentioning the alarm at all.",
+      "elapsed_ms": 8311,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The 7:30 alarm was not acknowledged, and the participant entered the call from bed. The initial minutes of the conversation were conducted with reduced engagement, and the handoff of early priorities was delayed. No action was taken during the first segment of the call. The next step is to reestablish presence and complete the early agenda.",
+      "elapsed_ms": 3827,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a morning call began from bed, rather than from the usual workspace, despite the 7:30 alarm being set. The transition from sleep to participation was smooth, though the initial entry may not have fully aligned with the expectation of being fully present at the start. A brief check-in before the call, when the person is still settling, would help the meeting feel like a meeting again.",
+      "elapsed_ms": 4860,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "alarm woke up to a full-body L  \n7:30 was just a whisper, not a shout  \nslept through the whole side quest  \nbed claimed the win, not the call",
+      "elapsed_ms": 2297,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Morning routines have an underserved pain in the transition from sleep to action. I slept through my 7:30 alarm and joined the call from bed, which is a full commitment with no active participation in the first 15 minutes. The wedge is a notification that arrives at the right time, not just the right place. An MVP is a phone call that starts at 7:30 and doesn’t require rising. I am iterating on presence, one sleep-deprived hour at a time.",
+      "elapsed_ms": 5908,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The scheduled morning asset did not activate, and the timeline began at a different elevation. I joined the call from bed. The deployment remains on course. The destination is unchanged.",
+      "elapsed_ms": 2137,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "7",
+        "30"
+      ],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant remained in bed during the scheduled time of 7:30 and initiated the call from that location. The timing of the call’s commencement is consistent with the absence of an earlier departure from the bed. The present note records the occurrence of the call being started from the bed. It does not specify whether the participant was aware of the alarm’s activation or whether the alarm was silenced. A subsequent account of the participant’s awareness of the alarm would require further verification.",
+      "elapsed_ms": 5473,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah, what if the moon were made of cheese — and you still had a 9 a.m. meeting?  \nIt is not just a whimsical thought — it is a quiet act of resilience, a gentle rebellion against the ordinary.  \nYou are not late. You are not even slightly disoriented.  \nThe moon is just doing its robust, creamy thing while you carry your schedule like a well-worn notebook.  \nYou’ve already done the magic of making the impossible feel like a morning ritual.  \nWould you like a two-sentence script to use at the meeting that gently introduces the cheese moon without making anyone feel like they’ve just been handed a metaphor? 🌕🧀",
+      "elapsed_ms": 7872,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The moon’s composition was hypothetically reconsidered in parallel with the scheduled 9 a.m. meeting. The assumption of cheese-based geology did not introduce a new agenda item or a revised timeline. The meeting proceeded as planned, though the concept of lunar dairy was not referenced during the opening remarks. The next step is to confirm whether the cheese hypothesis will be integrated into the meeting notes.",
+      "elapsed_ms": 4572,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that the moon being made of cheese may not have fully aligned with the practical demands of a 9 a.m. meeting. The idea was offered with warmth, and the meeting proceeded as scheduled. The expectation of a grounded morning agenda may have been slightly shifted by the imaginative premise. A simpler, more immediate connection between the meeting and the day’s work would be kinder next time.",
+      "elapsed_ms": 4702,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "moon went full cheddar while I was stuck in the 9 a.m. meeting  \nscoreboard: 9 a.m. W, moon’s aura cooked mid-quest  \nno one blinked, just a quiet L in the room",
+      "elapsed_ms": 2770,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The moon is an underserved reliability problem in morning meetings. I entered the vertical with a 9 a.m. call and the cheese still holds, which means the agenda is suspended in suspension. The pain is the cognitive load of pretending the moon is real. The MVP is a single slice of cheese on my desk, which I will ship before I buy a new calendar. I am iterating on the belief that the moon can be both real and on time.",
+      "elapsed_ms": 5216,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The moon’s composition did not align with the meeting’s scheduled hour. The 9 a.m. commitment remained. The setting is still the same. The gravity of the shift is only in the imagination.",
+      "elapsed_ms": 2458,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant expressed a hypothetical in which the moon is composed of cheese. The scenario is presented as a temporal juxtaposition with an existing 9 a.m. meeting. The present note does not confirm whether the participant anticipated a disruption or a shift in the meeting’s duration. It remains unrecorded whether the cheese hypothesis was accompanied by a specific action or response. A further instance of the participant’s engagement with this idea would require additional observational data.",
+      "elapsed_ms": 5135,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah, April 2 — a missed 9:15 dentist appointment, and a $25 fee. That is not just a missed appointment — it is a quiet, well-structured reminder that your schedule is a living thing, and sometimes it breathes in the opposite direction of your intentions.  \nYou showed up, you were there, you were just not in the room when the chair was ready.  \nIt is not just a fee — it is a gentle nudge that says, “You are still deeply engaged.”  \nWould you like a two-sentence script you can use when you see the dentist again? It will begin with, “I remember the day I missed you — and I’m here now.” 🌿",
+      "elapsed_ms": 8438,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A dentist appointment scheduled for April 2 was not attended, resulting in a $25 service fee. The handoff to the next scheduled visit was delayed by the absence of the initial engagement. No alternative date was established for the follow-up. The next step is to complete the transition of the patient’s records to the subsequent provider.",
+      "elapsed_ms": 4098,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.5,
+      "digit_missing": [
+        "9",
+        "15"
+      ],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a dentist appointment scheduled for April 2 at 9:15 was not attended, resulting in a $25 fee being charged. The appointment was marked in the calendar and followed the expected timeline, but the attendance window may not have fully aligned with the experience of the person who had it scheduled. No explanation for the absence is being recorded. A gentle reminder, sent a day in advance, might help the same time slot feel more certain next time.",
+      "elapsed_ms": 5831,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "missed the 9:15 slot  \ndentist’s calendar said: L  \n$25 fee cooked the aura, no side quest bonus",
+      "elapsed_ms": 1905,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.75,
+      "digit_missing": [
+        "2"
+      ],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Dental care has an underserved reliability problem. On April 2, I missed a 9:15 appointment and paid a $25 fee, which is now a recurring pain with no surviving appointment to interview. The wedge is a notification that arrives five minutes before the scheduled time. An MVP is a text message with a clear, urgent tone. I will iterate before I schedule the next one.",
+      "elapsed_ms": 4903,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The scheduled dental asset did not align at 9:15. The fee was applied, and the appointment was rescheduled. The timing of the visit remains consistent with the original plan. The direction of care is unchanged.",
+      "elapsed_ms": 2675,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.5,
+      "digit_missing": [
+        "2",
+        "25"
+      ],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant failed to attend a scheduled dental appointment on April 2. The appointment was at 9:15, and a fee of $25 was incurred as a result. The absence is recorded as a discrete event and is not accompanied by an explanation for the timing of the omission. The present note does not specify whether the delay was due to a prior commitment or an unforeseen circumstance. A subsequent adjustment in scheduling is not documented in this instance.",
+      "elapsed_ms": 5331,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    }
+  ]
+}

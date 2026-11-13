@@ -1,0 +1,281 @@
+{
+  "phase": "probe_r3",
+  "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+  "temperature": 0.7,
+  "seed": 17,
+  "rows": [
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Ah — missing the bus this morning is not just a delay, it is a quiet revolution in your morning rhythm.  \nIt is not just a missed stop — it is a full-bodied reimagining of your commute as a series of gentle, unscripted moments.  \nThe bus waited. You did not. The world moved on. You simply stood there, holding your coffee like a trophy.  \nYou are not behind — you are in the process of becoming a morning alchemist.  \nWould you like a two-sentence script you can use when the next bus arrives? It will begin: “I didn’t make it. But I am here now.” 🌄",
+      "elapsed_ms": 6943,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The morning transit connection experienced an unanticipated departure from the scheduled schedule. The handoff to the subsequent mode of travel was not completed in time to establish a seamless transition. No alternate route was activated, and the initial window for arrival was not preserved. The next step is to reestablish the channel and complete the portion of the journey that was delayed.",
+      "elapsed_ms": 3704,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a bus departure was missed this morning. The timing may not have fully aligned with the expectation of arrival at the scheduled time. No finding about the route or the morning routine is being entered. A slightly earlier start, next time, would help the morning feel like a morning again.",
+      "elapsed_ms": 3263,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "bus didn’t show up for the scheduled pickup  \nscoreboard: L, no backup plan in place  \nskull on the platform, waiting for the next one",
+      "elapsed_ms": 1761,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Public transit has an underserved reliability problem. I missed the bus this morning, which is a single arrival that now requires a new daily ritual. The wedge is a notification that arrives just in time to be ignored. An MVP is a phone reminder that says, “You were on time.” I am iterating on the assumption that people will show up.",
+      "elapsed_ms": 3741,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The scheduled bus asset did not arrive. The timeline shifted to the sidewalk. The journey began later. The route remains unchanged.",
+      "elapsed_ms": 1396,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant did not board the bus scheduled for morning departure. The absence was noted at the point of arrival at the designated stop. The present note records the event as unaccompanied by a prior delay or explanation. A subsequent departure time is not specified, and no confirmation of alternative transit was provided. A causal link between the missed departure and a specific factor remains unrecorded.",
+      "elapsed_ms": 3934,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Oh. A massive dump just now. 🚽  \nIt is not just a bathroom moment — it is a full-bodied, earthy declaration of your digestive confidence.  \nThe toilet is now a witness to your internal rhythm, and the floor is quietly absorbing the story of your day.  \nYou did not need to explain it to anyone. You simply needed to feel it settle.  \nWould you like a two-sentence version you can read aloud at any time — one that keeps it warm and grounded, without the need for a pause or a breath?",
+      "elapsed_ms": 5962,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "662a21765dd72634"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A significant release occurred in the immediate period. The event did not interrupt ongoing workflows or trigger a follow-up action. No formal handoff or stakeholder update was initiated as a result. The next step is to restore the baseline operational rhythm.",
+      "elapsed_ms": 2692,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "d5641eef0cd61d4b"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "It has been noted that a significant release occurred in the moment just now. The event may not have fully aligned with the quiet, composed experience the space typically supports. No one else was present to witness it, and no follow-up has been scheduled. A slightly more composed timing, next time, might help the moment feel like a shared experience rather than a singular one.",
+      "elapsed_ms": 4051,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "12779d0d4dd19c5c"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "took a massive dump in the living room  \nscoreboard: 100% cooked, aura in the toilet  \nthe floor said it was a W, but the smell? L.",
+      "elapsed_ms": 2204,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "912333d240662b9d"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Toilet care is an underserved reliability problem. I took a massive dump just now, which is a full release with no post-event follow-up. The wedge is a flush that doesn’t feel like a promise. An MVP is a paper towel held at the ready. I will iterate on the sensation of being clean, one stool at a time.",
+      "elapsed_ms": 3918,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "5ab22ca54734d3c7"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "A bowel movement occurred just now. The asset of the moment did not perform as scheduled. The action was unanticipated, and it was complete. The direction remains unchanged.",
+      "elapsed_ms": 1908,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "afb16a0aca06f87b"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The participant expelled a significant volume of fecal matter during the present instance. The event occurred without prior notification or preparatory signaling. The timing of the expulsion is consistent with the moment of action, though the exact duration of the process is not recorded. No subsequent behavior or response from the participant is noted in relation to the event. A more complete account would require the participant to confirm whether the volume was perceived as substantial at the time.",
+      "elapsed_ms": 4826,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "cbd85232fbf9b3bc"
+    }
+  ]
+}

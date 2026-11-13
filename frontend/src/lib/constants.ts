@@ -1,0 +1,10 @@
+export const MAX_CHARS = 4000;
+export const TEMP_MIN = 0.1;
+export const TEMP_MAX = 1.2;
+export const TEMP_STEP = 0.05;
+export const TEMP_DEFAULT = 0.7;
+export const TOKENS_MIN = 60;
+export const TOKENS_MAX = 250;
+export const TOKENS_STEP = 1;
+export const TOKENS_DEFAULT = 180;
+export const CLIENT_TIMEOUT_MS = 130_000;

@@ -1,0 +1,1049 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "torch": "2.15.0+cu134",
+  "cuda_build": "13.4",
+  "gpu_name": "NVIDIA GeForce RTX 5080",
+  "capability": [
+    12,
+    0
+  ],
+  "dtype": "bfloat16",
+  "load_count": 1,
+  "load_seconds": 30.579,
+  "allocated_after_load_mib": 7672.3,
+  "seed": 13,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_new_tokens": 180,
+  "production_variant": "D",
+  "prompt_revision": "r1",
+  "default_temperature": 0.7,
+  "second_pass": false,
+  "human_score_legend": "meaning, style_fidelity, and metaphorical_humor are 1-5 human scores. They are left null on purpose. Do not fill them in without a person scoring the text.",
+  "phase": "final_testset",
+  "temperature": 0.7,
+  "style": "linkedin",
+  "linkedin_tone": "motivational",
+  "summary": {
+    "n": 32,
+    "errors": 0,
+    "mean_latency_s": 4.1904375,
+    "median_latency_s": 3.9755,
+    "max_latency_s": 7.596,
+    "mean_fact_retention_all": 0.921875,
+    "mean_fact_retention_numbered": 0.8076923076923077,
+    "numbered_rows": 13,
+    "numbered_rows_with_a_miss": 3,
+    "mean_peak_mib": 7824.978125
+  },
+  "rows": [
+    {
+      "source": "I made coffee and forgot the mug was still dirty.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I prepared a coffee batch using the standard cycle and failed to clean the mug before reusing it. The residue remained visible on the surface after the pour.  \n#ProcessCompliance #OperationalAccuracy #HygieneStandards",
+      "elapsed_s": 2.673,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_01",
+      "tags": [
+        "daily",
+        "mundane"
+      ]
+    },
+    {
+      "source": "I walked the dog around the block and it rained for 5 minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I completed a block-level walk with the companion animal during a five-minute rain event. The route was fully traversed, and the duration of precipitation did not disrupt the sequence.  \n#FieldRoutine #WeatherResilience #OnTrack",
+      "elapsed_s": 2.828,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "5"
+        ],
+        "missing": [
+          "5"
+        ],
+        "retained": 0,
+        "total": 1,
+        "ratio": 0.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_02",
+      "tags": [
+        "daily",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I packed lunch and left it on the kitchen counter.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I prepared a meal and placed it on the kitchen counter prior to departure.  \nThe item remains staged and ready for retrieval.  \n#Preparation #OperationalReadiness #SupplyChain",
+      "elapsed_s": 2.474,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_03",
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "source": "I charged my phone to 80 percent and then could not find the cable.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I charged the device to 80 percent and then lost the power cable during the session.  \nThe unit remained at 80 percent, and the next step is to secure the connector inventory.  \n#DeviceReadiness #CableInventory #OperationalContinuity",
+      "elapsed_s": 3.183,
+      "peak_memory_mib": 7824.4,
+      "fact_retention": {
+        "source_numbers": [
+          "80"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_04",
+      "tags": [
+        "daily",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I sorted a drawer of unmatched socks and found eleven singles.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I completed a full inventory sort of a sock drawer and identified eleven unmatched pairs.  \nThe process concluded with a clear count and no further discrepancies.  \n#InventoryAccuracy #OperationalClarity #WorkplacePrecision",
+      "elapsed_s": 2.499,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_05",
+      "tags": [
+        "mundane",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I watered the office plant with the last of my water bottle.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I completed the final hydration cycle for the office plant using the last volume from my water bottle.  \nThe plant received full saturation at the scheduled interval.  \n#ResourceStewardship #DailyMaintenance #SustainableOperations",
+      "elapsed_s": 2.6,
+      "peak_memory_mib": 7824.2,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_06",
+      "tags": [
+        "mundane"
+      ]
+    },
+    {
+      "source": "I stood in line at the grocery store behind six carts.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I processed a line of six carts at the grocery checkout, maintaining position without delay.  \nThe transaction concluded within the standard service window, and the flow remained uninterrupted.  \n#CheckoutThroughput #QueueManagement #OperationalFlow",
+      "elapsed_s": 2.851,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_07",
+      "tags": [
+        "mundane",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I reheated rice and ate it from the pot.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I completed a rapid thermal restoration of stored inventory, bringing the rice to serving temperature directly from the source vessel.  \nThe meal was consumed immediately after processing, maintaining continuity in the workflow.  \n#ThermalManagement #RapidRestoration #OnTimeService",
+      "elapsed_s": 3.416,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_08",
+      "tags": [
+        "mundane",
+        "daily"
+      ]
+    },
+    {
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I acknowledged a signal transmitted through the chain of visibility, responding to a gesture made by the individual positioned behind the person I was facing.  \nThe exchange completed in real time, with no interruption or delay.  \n#VisualCommunication #ChainOfSignals #RealTimeResponse",
+      "elapsed_s": 3.519,
+      "peak_memory_mib": 7824.2,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_09",
+      "tags": [
+        "embarrassing"
+      ]
+    },
+    {
+      "source": "I called my teacher mom in front of the class.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I initiated a direct communication with the designated educator during the live session, publicly reaching out to confirm a scheduled update.  \nThe interaction concluded without disruption, and the class remained engaged throughout.  \n#TransparentCommunication #LiveSessionIntegrity #EducationalClarity",
+      "elapsed_s": 3.309,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_10",
+      "tags": [
+        "embarrassing"
+      ]
+    },
+    {
+      "source": "I had spinach in my teeth during the entire interview.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I maintained full engagement throughout the entire interview session, with spinach residue present in my oral cavity the entire time.  \nThe interview concluded without interruption, and no corrective action was required.  \n#IntegrityInPresence #FullEngagement #ProcessHonesty",
+      "elapsed_s": 3.628,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_11",
+      "tags": [
+        "embarrassing",
+        "professional"
+      ]
+    },
+    {
+      "source": "I replied-all to 42 coworkers with a message that said lol nice.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I processed a bulk notification to 42 colleagues with a standardized acknowledgment: \"lol nice.\"  \nThe response was delivered in full, maintaining the chain integrity and preserving the original context.  \n#CommunicationScale #BatchResponse #TeamAwareness",
+      "elapsed_s": 3.329,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "42"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_12",
+      "tags": [
+        "embarrassing",
+        "numbers",
+        "professional"
+      ]
+    },
+    {
+      "source": "I wore two different shoes until a stranger pointed at my feet.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I completed the shift in dual footwear, switching mid-session after a peer observed the transition.  \nThe change occurred at the point of physical verification, and the sequence remained documented.  \n#FootwearProtocol #OnSiteAccuracy #ChangeDetection",
+      "elapsed_s": 4.002,
+      "peak_memory_mib": 7824.2,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_13",
+      "tags": [
+        "ridiculous"
+      ]
+    },
+    {
+      "source": "I set three alarms and slept through all of them.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I initiated a three-alarm sequence for scheduled wake-up, but remained in sleep state beyond all designated triggers. The intended transition to active duty did not occur as planned.  \n#ShiftReadiness #SleepHygiene #OperationalTiming",
+      "elapsed_s": 4.214,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_14",
+      "tags": [
+        "ridiculous",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I practiced a speech to my cat for twenty minutes and then forgot the opening line.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I practiced a delivery to a single listener for twenty minutes and subsequently lost the opening line during execution.  \nThe session concluded with the full content intact, though the initial phrase was not retained.  \n#VerbalDelivery #RapidRehearsal #AttentionSpan",
+      "elapsed_s": 5.035,
+      "peak_memory_mib": 7824.4,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_15",
+      "tags": [
+        "ridiculous"
+      ]
+    },
+    {
+      "source": "I ghosted the group chat for two days and then sent my bad.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I withheld participation in the group communication for two consecutive days before submitting a full acknowledgment.  \nThe cycle closed with a direct and complete message.  \n#Transparency #CommunicationClosure #Reliability",
+      "elapsed_s": 3.19,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_16",
+      "tags": [
+        "slang"
+      ]
+    },
+    {
+      "source": "I doomscrolled until 1:30 a.m. and the video count hit 70.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I maintained continuous engagement through the early morning hours until 1:30 a.m., during which the video feed count reached 70.  \nThe session concluded with a stable and measurable volume of content.  \n#ContentThroughput #LateNightEngagement #RealTimeMetrics",
+      "elapsed_s": 5.239,
+      "peak_memory_mib": 7825.7,
+      "fact_retention": {
+        "source_numbers": [
+          "1",
+          "30",
+          "70"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_17",
+      "tags": [
+        "slang",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I yeeted my backpack onto the couch and the zipper exploded.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I deposited the backpack onto the couch during transition, and the zipper mechanism failed under pressure.  \nThe load remained intact, and the containment breach did not compromise the contents.  \n#PhysicalIntegrity #EquipmentReliability #FieldTransition",
+      "elapsed_s": 4.28,
+      "peak_memory_mib": 7824.2,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_18",
+      "tags": [
+        "slang",
+        "ridiculous"
+      ]
+    },
+    {
+      "source": "I sent the Q3 budget at 4:15 p.m. and forgot the spreadsheet attachment.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The Q3 budget was submitted at 4:15 p.m. without the attached spreadsheet.  \nThe file was identified and reattached within five minutes of submission.  \n#BudgetDelivery #ProcessAccuracy #TimelyAction",
+      "elapsed_s": 3.949,
+      "peak_memory_mib": 7825.6,
+      "fact_retention": {
+        "source_numbers": [
+          "3",
+          "4",
+          "15"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_19",
+      "tags": [
+        "professional",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I facilitated a standup that ran 27 minutes instead of 15.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The standup session lasted 27 minutes instead of the scheduled 15.  \nAll teams remained engaged, and the full scope of updates was captured in real time.  \n#AgileExecution #MeetingDuration #OperationalClarity",
+      "elapsed_s": 4.507,
+      "peak_memory_mib": 7824.4,
+      "fact_retention": {
+        "source_numbers": [
+          "27",
+          "15"
+        ],
+        "missing": [],
+        "retained": 2,
+        "total": 2,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_20",
+      "tags": [
+        "professional",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I merged the branch and then noticed two failing tests.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The branch was merged, and two test cases failed post-integration.  \nThe failure was identified and logged for immediate review.  \n#CodeIntegration #TestCoverage #QualityGate",
+      "elapsed_s": 3.81,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_21",
+      "tags": [
+        "professional",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I booked the conference room for 8 people and 11 showed up.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The conference room was booked for eight attendees, but eleven arrived on time.  \nCapacity was exceeded, and the session proceeded with full participation.  \n#RoomUtilization #AttendanceExceeded #OperationalFlexibility",
+      "elapsed_s": 4.427,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "8",
+          "11"
+        ],
+        "missing": [
+          "8",
+          "11"
+        ],
+        "retained": 0,
+        "total": 2,
+        "ratio": 0.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_22",
+      "tags": [
+        "professional",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I burned the rice.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The batch of rice failed to reach the required doneness and was discarded during the initial quality check.  \nNo further use was made of the affected portion.  \n#ProcessIntegrity #FailSafe #QualityControl",
+      "elapsed_s": 4.574,
+      "peak_memory_mib": 7820.7,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_23",
+      "tags": [
+        "short",
+        "mundane"
+      ]
+    },
+    {
+      "source": "The bus left.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The scheduled departure occurred as planned.  \nNo delay was recorded, and the transfer sequence proceeded without interruption.  \n#OnTimeExecution #ScheduledFlow #ReliableMovement",
+      "elapsed_s": 3.282,
+      "peak_memory_mib": 7820.6,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_24",
+      "tags": [
+        "short",
+        "daily"
+      ]
+    },
+    {
+      "source": "I lost one glove.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "One glove was identified as missing during the inventory check at the end of the shift.  \nThe remaining pair was accounted for, and the full set is now on record.  \n#OperationalAccuracy #InventoryIntegrity #ShiftCloseout",
+      "elapsed_s": 4.892,
+      "peak_memory_mib": 7820.7,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_25",
+      "tags": [
+        "short",
+        "numbers"
+      ]
+    },
+    {
+      "source": "Yesterday I left the house with a full grocery list, bought only bread and oranges, got on the wrong bus, rode it for 18 minutes, walked back 12 blocks, and still made it to my 6 p.m. shift with the bread squashed.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I departed with a complete grocery list, purchased only bread and oranges, boarded the incorrect transit route, rode for 18 minutes, and walked back 12 blocks to reach the 6 p.m. shift.  \nThe bread was squashed during transit, but the required inventory was delivered on time.  \n#SupplyChainResilience #OnTimeDelivery #TransitAdaptation",
+      "elapsed_s": 7.596,
+      "peak_memory_mib": 7834.0,
+      "fact_retention": {
+        "source_numbers": [
+          "18",
+          "12",
+          "6"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_26",
+      "tags": [
+        "long",
+        "numbers",
+        "daily"
+      ]
+    },
+    {
+      "source": "On Saturday I tried to assemble the shelf, lost the hex key, used a butter knife, tightened three bolts, stripped the fourth, and left the shelf leaning against the wall with the instructions still in the plastic bag.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "On Saturday, the shelf assembly was initiated but concluded with partial completion. Three bolts were tightened using a butter knife after the hex key was lost; the fourth bolt was stripped during the process. The unit remains in a leaned position against the wall, with original instructions still enclosed in the plastic bag.  \n#AssemblyExecution #ComponentIntegrity #WorkInProgress",
+      "elapsed_s": 7.121,
+      "peak_memory_mib": 7834.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_27",
+      "tags": [
+        "long",
+        "numbers",
+        "mundane"
+      ]
+    },
+    {
+      "source": "This morning I woke up at 6:05, pressed snooze twice, spilled coffee on a white shirt, changed, missed the 7:10 train, and arrived at my desk at 8:20 with the stained shirt in a bag.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I woke at 6:05, pressed snooze twice, and spilled coffee on a white shirt before changing.  \nThe 7:10 train was missed, and arrival at the desk occurred at 8:20 with the stained shirt in a sealed bag.  \n#MorningRhythm #OnTimeDelivery #OperationalClarity",
+      "elapsed_s": 7.392,
+      "peak_memory_mib": 7833.9,
+      "fact_retention": {
+        "source_numbers": [
+          "6",
+          "05",
+          "7",
+          "10",
+          "8",
+          "20"
+        ],
+        "missing": [],
+        "retained": 6,
+        "total": 6,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_28",
+      "tags": [
+        "long",
+        "numbers",
+        "daily"
+      ]
+    },
+    {
+      "source": "I owed Maya $18 and paid her back $20 by mistake.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I settled a prior balance owed to Maya with a payment of $20, exceeding the original obligation by $2.  \nThe transaction was completed in full, with a surplus that will be reconciled in the next cycle.  \n#FinancialAccuracy #TransactionClosure #OperationalIntegrity",
+      "elapsed_s": 5.823,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "18",
+          "20"
+        ],
+        "missing": [
+          "18"
+        ],
+        "retained": 1,
+        "total": 2,
+        "ratio": 0.5
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_29",
+      "tags": [
+        "numbers",
+        "daily"
+      ]
+    },
+    {
+      "source": "The recipe needed 350 degrees for 25 minutes and I pulled it at 19.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The recipe required 350 degrees for 25 minutes and was pulled at 19.  \nThe batch reached target temperature and was removed within the specified window.  \n#ProcessAccuracy #TimeControl #ThermalStability",
+      "elapsed_s": 4.583,
+      "peak_memory_mib": 7825.7,
+      "fact_retention": {
+        "source_numbers": [
+          "350",
+          "25",
+          "19"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_30",
+      "tags": [
+        "numbers",
+        "mundane"
+      ]
+    },
+    {
+      "source": "I sneezed during the quiet exam and 30 heads turned.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "During the quiet exam, a single sneeze triggered a momentary shift in attention, with 30 heads turning toward the source. The session remained on track, and no disruption to the assessment flow occurred.  \n#ExamIntegrity #AttentionSpan #QuietFocus",
+      "elapsed_s": 5.14,
+      "peak_memory_mib": 7824.3,
+      "fact_retention": {
+        "source_numbers": [
+          "30"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_31",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ]
+    },
+    {
+      "source": "I said bet to a 9 a.m. plan and showed up at 9:40.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I committed to the 9 a.m. schedule and arrived at 9:40.  \nThe session began as scheduled, and the initial timeline remained intact.  \n#OnTimeDelivery #ScheduleAdherence #OperationalPunctuality",
+      "elapsed_s": 4.729,
+      "peak_memory_mib": 7825.6,
+      "fact_retention": {
+        "source_numbers": [
+          "9",
+          "9",
+          "40"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r1",
+      "id": "test_32",
+      "tags": [
+        "slang",
+        "numbers"
+      ]
+    }
+  ]
+}

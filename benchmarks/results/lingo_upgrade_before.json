@@ -1,0 +1,3221 @@
+{
+  "phase": "before",
+  "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+  "temperature": 0.7,
+  "seed": 17,
+  "rows": [
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. You missed the morning bus this morning.",
+      "elapsed_ms": 624,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The bus was missed this morning. Delivery of the morning materials to the office is now on track via alternative transport. Process for updating the schedule is underway with the transit team. Next step is to confirm the revised arrival time for the materials.",
+      "elapsed_ms": 2643,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I missed the bus this morning. The departure time was 7:30 AM, and I arrived at the station at 7:25 AM, which was just in time to board, but the bus had already departed. I checked with the station staff, who confirmed the schedule and advised that the bus was delayed due to a prior mechanical issue. I will ensure I arrive a bit earlier in the future to account for any potential delays.",
+      "elapsed_ms": 4806,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Yo, I skipped the bus this morning.",
+      "elapsed_ms": 598,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The bus was late, so I walked to the station and caught the next one. Now I’m on my way to ship the new feature with the team.",
+      "elapsed_ms": 1772,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I missed the bus this morning. The delay gave me a chance to review the quarterly financial reports before the team meeting. I’ll ensure the updates are aligned with the board’s expectations by noon.",
+      "elapsed_ms": 2147,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h01",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I missed the bus this morning.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I was unable to catch the bus this morning. The timing of my departure may have contributed to this delay. It is possible that the schedule or my own route planning could have been factors. However, the exact reason for missing the bus remains unconfirmed.",
+      "elapsed_ms": 2765,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. You recently had a significant bowel movement—so much so that it was described as a \"massive dump.\"",
+      "elapsed_ms": 1322,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Delivered a significant update on the project status just now. The team received a detailed overview of the current progress and key milestones. Next step is to follow up with the stakeholders to align on the action items and timeline.",
+      "elapsed_ms": 2399,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I’ve been experiencing a significant amount of stress lately, particularly around the recent project deadlines and ongoing team meetings. This has been impacting my focus and energy levels, and I’ve found myself needing to step back and recharge more frequently. I’m committed to managing this and ensuring I can continue contributing effectively. I’d like to share this with you so we can find ways to support my well-being during this time.",
+      "elapsed_ms": 4444,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I just had a *major* poop session.",
+      "elapsed_ms": 583,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I took a massive dump just now—our ship’s on fire, and we’re iterating through the chaos, one user at a time.",
+      "elapsed_ms": 1568,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I just had a significant moment of clarity during the quarterly review meeting—what I initially thought was a setback turned into a powerful opportunity. The team’s response to my candid reflection was both immediate and energizing. We’re now aligning on a renewed focus for the next phase.",
+      "elapsed_ms": 3068,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "d01",
+      "split": "dev",
+      "tags": [
+        "crude",
+        "embarrassing"
+      ],
+      "source": "I took a massive dump just now",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I experienced a significant bowel movement shortly ago. While the event was unexpected, it occurred without any prior warning or discomfort. The timing and nature of the episode suggest a sudden change in gastrointestinal function. It may have been influenced by recent dietary intake or physical activity levels.",
+      "elapsed_ms": 2778,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. The toast was burned, which caused the smoke alarm to sound for a duration of three minutes.",
+      "elapsed_ms": 1489,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The toast was overcooked and burned, triggering the smoke alarm for a duration of three minutes. This occurred during the morning breakfast preparation. No further issues were reported related to the alarm or the toast. Next step is to review the toaster settings to ensure consistent toasting.",
+      "elapsed_ms": 2939,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The toast was slightly burned, and as a result, the smoke alarm sounded for three minutes. This occurred during the morning meal preparation, when the toast was being served. No further issues were reported related to the alarm or the toast.",
+      "elapsed_ms": 2655,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I roasted the toast until it was crispy and burnt, and the smoke alarm went off for 3 minutes straight.",
+      "elapsed_ms": 1294,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The toast burned and the smoke alarm rang for three minutes—long enough to make us pause and rethink our morning routine. We’re now iterating on how we start the day, because users still show up, and they’re not just waking up.",
+      "elapsed_ms": 2722,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The toast burned and the smoke alarm rang for three minutes—unexpected, but a clear signal that even the most routine mornings can demand attention. We’ll refine our morning routines to prevent such disruptions from becoming habitual.",
+      "elapsed_ms": 2360,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h02",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I burned the toast and the smoke alarm rang for 3 minutes.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The toast was slightly overcooked, resulting in a brief smoke alarm activation that lasted for three minutes.",
+      "elapsed_ms": 1292,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "3"
+      ],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. You lost your balance on a flat sidewalk, causing a moment of surprise in front of a group of 12 people who were present.",
+      "elapsed_ms": 1769,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Process: During a recent client meeting at the front entrance of the building, the owner tripped on a flat sidewalk in front of 12 attendees. Delivery: The incident occurred without any service disruption and was handled promptly with minimal impact. Next step: The facility team is reviewing sidewalk surface conditions and will conduct a site assessment to identify potential improvements.",
+      "elapsed_ms": 4080,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I experienced a slip on a flat sidewalk in front of 12 people, which required me to pause and regain my balance. The incident occurred during a routine interaction and did not involve any external factors such as weather or surface maintenance issues. I am mindful of the visibility and accessibility of the sidewalk and will share this feedback to ensure it is considered in future reviews.",
+      "elapsed_ms": 4214,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I fumbled on a flat sidewalk in front of 12 people.",
+      "elapsed_ms": 948,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I tripped on a flat sidewalk in front of 12 people—right there, in the middle of the day, with no warning. That moment became the spark to ship a new feature that lets users share real-time updates, not just static content.",
+      "elapsed_ms": 2861,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I tripped on a flat sidewalk in front of 12 people. The moment felt both humbling and grounding, a quiet reminder of how even the most composed can falter. I’m taking it as a signal to stay present—especially in high-visibility moments.",
+      "elapsed_ms": 3211,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h03",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "numbers"
+      ],
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I experienced a minor incident where I tripped on a flat sidewalk while in the presence of twelve individuals observing the event. The occurrence was unanticipated and involved a brief moment of balance disruption.",
+      "elapsed_ms": 2177,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 0.0,
+      "digit_missing": [
+        "12"
+      ],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. To save time, you chose a taxi instead of walking, which would have taken 10 minutes, and the taxi fare came to $47.",
+      "elapsed_ms": 1929,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The delivery team owner, Maria, reported that a taxi was required to transport a package from the client’s building to the final destination due to a 10-minute walk being impractical. This resulted in an additional taxi cost of $47. The process was adjusted to include taxi service as part of the delivery logistics. Next step is to review the walkability assessment for similar routes to evaluate potential savings.",
+      "elapsed_ms": 4800,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I’d like to share that I recently spent $47 on a taxi to reach my meeting, which was originally planned to be a 10-minute walk from my location. The walk was feasible on previous occasions, but this time the taxi was necessary due to the weather conditions and the specific route taken. I believe this reflects the added effort required to make the connection, and I’d appreciate understanding how this aligns with our expectations for travel arrangements.",
+      "elapsed_ms": 4970,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I paid $47 for a cab just to skip a 10-minute walk.",
+      "elapsed_ms": 1027,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "We shipped a new feature that cuts walk time in half—just to avoid a 10-minute walk, I spent $47 on a taxi.",
+      "elapsed_ms": 1792,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The taxi fare of $47 for a 10-minute walk underscores a growing disconnect between our operational efficiency and our customer experience. We’re reviewing our mobility strategy to ensure that small, routine decisions aren’t being driven by cost rather than value.",
+      "elapsed_ms": 2939,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h04",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "I spent $47 on a taxi to avoid a 10-minute walk.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I incurred a taxi fare of $47 in order to bypass a 10-minute walk. While the convenience of the taxi was notable, the decision to opt for the taxi over walking may have been influenced by factors such as weather conditions or personal preference, though the exact rationale is not fully specified.",
+      "elapsed_ms": 3392,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. I informed my manager that the deck was complete, even though it had only been finalized as an outline at that point.",
+      "elapsed_ms": 1474,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The presentation deck was delivered to my manager as a completed outline, rather than a fully developed deck. My manager noted that the content was still in outline form and expressed that it was not yet ready for review. The next step is to finalize the deck with visuals, data, and narrative flow before resubmitting.",
+      "elapsed_ms": 3825,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I shared with my manager that the deck was completed when, in fact, it was still in outline form. I wanted to ensure they were aware of the stage of development at the time I provided the update. I’m confident that this clarity will help align expectations moving forward.",
+      "elapsed_ms": 3209,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I told my manager the deck was done when it was still just an outline.",
+      "elapsed_ms": 962,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I shipped the deck as an outline—still not polished, just structured—because we needed to move fast and users were already giving feedback. We iterated through three versions before finalizing, and now it’s clear the early version was the right starting point.",
+      "elapsed_ms": 3011,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I shared with my manager that the deck was completed when it was still in outline form, indicating early momentum and clear direction despite the initial structure. I’m confident the refinement will follow as we build on this solid foundation.",
+      "elapsed_ms": 2406,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h05",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing"
+      ],
+      "source": "I told my manager the deck was finished when it was still an outline.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I informed my manager that the deck was complete, although at the time it had not yet been finalized and remained in outline form.",
+      "elapsed_ms": 1456,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. You forgot to celebrate your friend's birthday and sent a text at 11:58 p.m.",
+      "elapsed_ms": 1353,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Status update: The birthday reminder was missed and delivered at 11:58 p.m. via text message to the friend. Delivery occurred after the intended timing, but the message was sent promptly. Next step is to follow up with a thank-you note and offer a small gesture to reinforce the connection.",
+      "elapsed_ms": 4037,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I realized I had missed my friend’s birthday and reached out to them at 11:58 p.m. to share my apologies. I wanted to make sure they knew I remembered and appreciated the occasion. I’ve since been reflecting on how to better align my scheduling to ensure such moments aren’t missed in the future.",
+      "elapsed_ms": 4829,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I totally blanked on my friend’s birthday and sent them a text at 11:58 p.m. — like, last minute, full regret mode.",
+      "elapsed_ms": 2420,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I forgot my friend's birthday and texted them at 11:58 p.m.—a small moment that became the spark for a ship that now helps users remember the people who matter most. We iterate on the simple act of showing up, one message at a time.",
+      "elapsed_ms": 3920,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I forgot my friend's birthday and texted them at 11:58 p.m. It was a timely reminder—just in time to make a lasting impression.",
+      "elapsed_ms": 2595,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h06",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "numbers",
+        "dates"
+      ],
+      "source": "I forgot my friend's birthday and texted them at 11:58 p.m.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I inadvertently forgot my friend's birthday and sent a text message at 11:58 p.m. The timing suggests a late attempt to acknowledge the occasion, though the specific impact on the relationship remains to be seen.",
+      "elapsed_ms": 3231,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. Pineapple belongs on pizza, and you're steadfast in your belief—there's no need to apologize for it.",
+      "elapsed_ms": 1896,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The owner of the pizza delivery process has confirmed that pineapple is a preferred topping on pizza, with no plans to revise this stance. This position is now part of the ongoing customer experience review. Next step is to gather feedback from recent pizza orders that include pineapple to validate the trend.",
+      "elapsed_ms": 3833,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I’ve consistently advocated for the inclusion of pineapple on pizza, and I’m confident that this preference reflects my personal taste and satisfaction with the dish. I’ve shared this perspective in several conversations and meetings, and I’ve maintained that stance without compromise. I’m happy to continue engaging on this matter as we explore how our team can align on preferences while honoring diverse viewpoints.",
+      "elapsed_ms": 4673,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Pineapple on pizza? Yeah, I stand by that. No apology needed.",
+      "elapsed_ms": 1182,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I think pineapple belongs on pizza and I will not apologize.  \nWe launched the ship with just one core belief: users only want what feels authentic, not what’s expected.  \nNow, every iteration of the pizza menu starts with that same conviction.",
+      "elapsed_ms": 3452,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "At the recent board meeting, I stood by my position on the pineapple-pizza combination, reinforcing that it’s not just a matter of preference—it’s a strategic alignment with evolving customer tastes. I’ll continue to champion this blend, knowing it resonates with both our growing demographics and the increasing demand for culinary innovation.",
+      "elapsed_ms": 4393,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h07",
+      "split": "holdout",
+      "tags": [
+        "opinion"
+      ],
+      "source": "I think pineapple belongs on pizza and I will not apologize.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I believe pineapple complements pizza, and this preference is consistently held. While some may express reservations, my conviction in this pairing remains unwavering.",
+      "elapsed_ms": 2058,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. The office coffee has a consistently flat, metallic flavor—described as tasting like a wet coin—and while many employees notice it, few are willing to voice their dissatisfaction.",
+      "elapsed_ms": 2461,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee has been consistently reported as tasting like a wet coin, with no formal feedback or action taken to date. While the issue is acknowledged by the kitchen team, it remains unaddressed by the Facilities Operations owner. Next step is to schedule a meeting with the Facilities Operations owner to gather input and explore potential improvements in coffee preparation or sourcing.",
+      "elapsed_ms": 4736,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee has consistently been noted for its flavor—described by several colleagues as tasting like a wet coin—and while it’s been observed over several months, no one has yet formally raised the feedback with the coffee provider or the kitchen team. We’ve received a few informal mentions of this, and it’s clear that the experience is shared across the team. We’d like to gently encourage a conversation to better understand the current situation and explore whether adjustments might be helpful.",
+      "elapsed_ms": 6148,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee’s like a wet coin and no one else will admit it.",
+      "elapsed_ms": 1037,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee tastes like a wet coin, and no one else will say it—yet. We’re still shipbuilding the solution, one iteration at a time, with users only beginning to notice.",
+      "elapsed_ms": 2646,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee tastes like a wet coin and nobody else will say it. It’s a consistent, quiet issue that reflects a deeper gap in employee experience—something we need to address before it becomes a point of friction. We’ll act on it soon.",
+      "elapsed_ms": 3326,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h08",
+      "split": "holdout",
+      "tags": [
+        "complaint"
+      ],
+      "source": "The office coffee tastes like a wet coin and nobody else will say it.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The office coffee is often described as tasting like a wet coin, though this assessment is occasionally noted but not consistently shared among colleagues. While several employees have expressed this sentiment, it remains unclear whether it is a widespread perception or an individual preference.",
+      "elapsed_ms": 3135,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. While I was waving to the person directly in front of me, I noticed someone behind me also waving, and in response, I waved back at them.",
+      "elapsed_ms": 2101,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "During the morning meeting, the facilitator observed that a participant at the back of the room was waving to someone directly behind them, and in response, the facilitator waved back, acknowledging the interaction. This exchange occurred as part of the natural flow of engagement during the session. The next step is to ensure that such cross-communication is consistently encouraged to enhance participant visibility and connection.",
+      "elapsed_ms": 4589,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I noticed that while I was engaged in a conversation, I waved back at someone who had been waving at the person seated behind me. It seemed that the wave from the person behind me was intended for me, and I acknowledged it in return. I didn’t realize at the time that the wave had been directed to me, so there was a brief moment of overlap in the exchange. I appreciate the clear visibility and mutual recognition that this small interaction reflects.",
+      "elapsed_ms": 5600,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I waved back at the person who was waving at the one behind me.",
+      "elapsed_ms": 939,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I waved back at someone who was waving at the person behind me—just a quiet ripple in the flow, a moment of connection in the middle of the crowd.",
+      "elapsed_ms": 2143,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "At the conference, I made eye contact with a colleague from the third row, who was gesturing to someone behind him—just a simple wave back, a moment of connection in the flow of movement. It reminded me how easily human interaction can unfold in the midst of routine.",
+      "elapsed_ms": 3690,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h09",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I observed that I had waved back to an individual who was in turn waving at the person standing behind me. This exchange occurred in a setting where mutual acknowledgment between individuals in sequence was noted. While the exact timing and positioning of the gestures were clear, the specific intent behind each wave remains unconfirmed.",
+      "elapsed_ms": 4012,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. After completing the 10-kilometer race in 58 minutes, I settled down and lay on the grass.",
+      "elapsed_ms": 1948,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The 10-kilometer race was completed in 58 minutes. Following the finish, the individual laid on the grass to rest.",
+      "elapsed_ms": 1963,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "After completing the 10-kilometer race in 58 minutes, I took a moment to rest on the grass, reflecting on my performance and the experience.",
+      "elapsed_ms": 2232,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I aced the 10-kilometer race in 58 minutes and then just laid on the grass like a pro.",
+      "elapsed_ms": 1797,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I finished the 10-kilometer race in 58 minutes and then lay on the grass, watching the sun dip low—steady, like a ship finding its rhythm after a long stretch of open water.",
+      "elapsed_ms": 2941,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I finished the 10-kilometer race in 58 minutes and then lay on the grass. The quiet moment after the finish felt like a pause in the rhythm of the day—just me, the breeze, and the steady breath of the finish line.",
+      "elapsed_ms": 3694,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h10",
+      "split": "holdout",
+      "tags": [
+        "achievement",
+        "numbers"
+      ],
+      "source": "I finished the 10-kilometer race in 58 minutes and then lay on the grass.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I completed the 10-kilometer race in 58 minutes and subsequently lay on the grass.",
+      "elapsed_ms": 1475,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. If your cat took over the city, the buses would pause to take naps.",
+      "elapsed_ms": 1312,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If the city were run by the cat, bus services would frequently pause for naps. This reflects the current operational rhythm, where processes sometimes prioritize flexibility over strict scheduling. The owner of this observation is the city’s transportation operations team. Next step is to evaluate how napping patterns align with service delivery metrics across key routes.",
+      "elapsed_ms": 4252,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If my cat were in charge of the city, the buses might well take breaks to nap—just like my cat does. It reflects a consistent pattern of balance and rhythm in my daily life, where steady pacing and moments of stillness are valued. I’ve noticed that even small changes in routine often bring a sense of calm, which I believe aligns well with the kind of thoughtful, unhurried approach that supports both personal and organizational well-being.",
+      "elapsed_ms": 5155,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "My cat would zone out the whole city—buses would just do their thing, stop, and nap like nothing happened.",
+      "elapsed_ms": 1678,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If my cat ran the city, the buses would stop for naps. We’re still building the rhythm—each iteration brings a new way to move people, not just follow the same path.",
+      "elapsed_ms": 2456,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If my cat ran the city, the buses would stop for naps. That’s the rhythm we’d settle into—calm, deliberate, and a little more cat-tinged than expected.",
+      "elapsed_ms": 2782,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h11",
+      "split": "holdout",
+      "tags": [
+        "absurd"
+      ],
+      "source": "If my cat ran the city, the buses would stop for naps.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If my cat were to govern the city, it is plausible that the buses might occasionally pause to take naps. This suggests a more relaxed rhythm in public transportation, one that aligns with the cat’s natural tendencies. While such a scenario may seem whimsical, it reflects a potential shift in urban operations driven by a more contemplative leadership style. The exact impact on bus schedules remains speculative.",
+      "elapsed_ms": 5173,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. On March 3 at 11:40, the fish was reheated in the office microwave.",
+      "elapsed_ms": 1605,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Fish was reheated in the office microwave on March 3 at 11:40. Delivery status confirms the item was served warm during the morning shift. Next step is to verify temperature consistency for the next service batch.",
+      "elapsed_ms": 3161,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I reheated fish in the office microwave on March 3 at 11:40 and noted that it was the only instance of reheating fish during that period. The fish was served to colleagues during the morning meeting and remained warm throughout the session. There were no reported issues related to temperature or consistency at that time.",
+      "elapsed_ms": 4505,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I microwaved some fish in the office at 11:40 on March 3.",
+      "elapsed_ms": 1373,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On March 3 at 11:40, we ship fish from the kitchen to the office microwave—simple, reliable, and just right for the morning crew.",
+      "elapsed_ms": 2312,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On March 3 at 11:40, I reheated fish in the office microwave. The meal was served promptly to the team during a mid-morning meeting.",
+      "elapsed_ms": 2462,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h12",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "embarrassing",
+        "dates",
+        "numbers"
+      ],
+      "source": "I reheated fish in the office microwave on March 3 at 11:40.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I reheated fish in the office microwave on March 3 at 11:40. The reheating was carried out using the standard microwave settings available in the office microwave. While the fish was heated to a safe temperature, the exact temperature reached during reheating was not measured.",
+      "elapsed_ms": 3773,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. After a 90-minute meeting, I found myself crying in a restroom stall.",
+      "elapsed_ms": 1259,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Following a 90-minute meeting, the team owner reported emotional fatigue, expressing that they cried in a restroom stall during the session. The meeting was focused on refining the Q3 product roadmap and involved cross-functional stakeholders. Next step is to review meeting structure and duration to assess potential improvements in engagement and energy levels.",
+      "elapsed_ms": 4144,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "After a 90-minute meeting, I found myself in a stall where I was able to collect my thoughts and emotions, as the duration and pace of the discussion became particularly demanding. I wanted to share this moment to highlight the impact of the meeting length on my ability to engage and process the content, without suggesting any specific concerns about the meeting structure or participants. I remain committed to contributing effectively and welcome any opportunities to align on time and engagement expectations.",
+      "elapsed_ms": 6564,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I was in a stall, broke down, after that 90-minute meeting.",
+      "elapsed_ms": 1285,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "After a 90-minute meeting, I cried in a stall—still trying to figure out how to ship something that feels like it’s moving too slowly.",
+      "elapsed_ms": 2194,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "After a 90-minute meeting, I found myself crying in a stall—deeply moved by the weight of the conversation and the unmet expectations that lingered. It underscores how much energy and emotional investment we’re still making, even as the pace feels increasingly unsustainable.",
+      "elapsed_ms": 3889,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h13",
+      "split": "holdout",
+      "tags": [
+        "embarrassing",
+        "work",
+        "numbers"
+      ],
+      "source": "I cried in a stall after a meeting that lasted 90 minutes.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Following a 90-minute meeting, I experienced an emotional response—specifically, tears—while in a restroom stall. The duration and nature of the meeting contributed to a sense of emotional fatigue, which manifested as crying in that setting. While the exact sequence of events leading to the emotional reaction is not fully detailed, it appears to have been a significant moment of reflection or strain.",
+      "elapsed_ms": 5504,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. You received a promotion and, right after, expressed concern that you might struggle with the new role.",
+      "elapsed_ms": 1832,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The promotion has been officially awarded, and the owner is now responsible for the new role. Initially, there was some concern about adapting to the increased responsibilities, but the process of onboarding and alignment with the team is underway. Next step is to schedule a one-on-one with the manager to review expectations and establish a clear delivery plan.",
+      "elapsed_ms": 4806,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I'm really pleased to hear that you've been promoted—your dedication and performance have clearly been recognized. In the early days, it's natural to feel a bit uncertain about stepping into a new role, especially when you're excited about the opportunity. I know you've been thoughtful about balancing the transition, and your proactive approach has already shown your commitment.",
+      "elapsed_ms": 4741,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I got the promotion and like, instantly freaked out—worried I’d totally mess it up.",
+      "elapsed_ms": 1497,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I got the promotion and immediately worried I would be bad at it. Now I’m just showing up, listening, and ship.",
+      "elapsed_ms": 1798,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I got the promotion and immediately worried I would be bad at it. That worry has now become my strength—my focus on learning and listening has helped me build trust and clarity quickly.",
+      "elapsed_ms": 2512,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h14",
+      "split": "holdout",
+      "tags": [
+        "achievement"
+      ],
+      "source": "I got the promotion and immediately worried I would be bad at it.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Upon receiving the promotion, I expressed initial concern that I might struggle to meet the expectations of the new role. While I am confident in my abilities, the transition has prompted a sense of uncertainty about my readiness. I am actively working to build the necessary skills and confidence to perform effectively. However, the extent to which I will succeed remains to be seen.",
+      "elapsed_ms": 4790,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. During the date, my date ordered the meal for me, and as a result, I ended up eating the salad that was not my preference.",
+      "elapsed_ms": 2159,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The date arranged the meal, and I ended up eating the salad that was not my preference. Process: meal was delivered as scheduled, with salad as the primary course. Owner: the date. Next step: reflect on the experience and consider preferences for future meal planning.",
+      "elapsed_ms": 3081,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "During my recent date, my date ordered the meal on my behalf, and I ended up eating the salad that I had originally preferred to skip. I appreciated the thought, but it wasn’t aligned with my personal preference for the evening. I’d like to acknowledge the intention behind the choice and see how we can better align meal selections in the future.",
+      "elapsed_ms": 4103,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "My date saved the day by ordering for me, and I ended up eating the salad I’d actually been dreading.",
+      "elapsed_ms": 1488,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "My date ordered for me, and I ate the salad I didn’t want—still, it was the only thing that made it to the table.",
+      "elapsed_ms": 1823,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "At the dinner event, my date arranged the meal, and though I had specifically chosen the salad I didn’t want, I ended up enjoying it—unexpectedly, and with a quiet sense of appreciation. It was a small moment of alignment between intention and action.",
+      "elapsed_ms": 3263,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h15",
+      "split": "holdout",
+      "tags": [
+        "awkward",
+        "dates"
+      ],
+      "source": "My date ordered for me, and I ate the salad I did not want.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "My date arranged a meal for me, and I ended up eating a salad that was not my preferred choice.",
+      "elapsed_ms": 1380,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. The printer jammed specifically on page 2 out of 14, and the user provided a single kick to resolve the issue.",
+      "elapsed_ms": 1822,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer jammed on page 2 of 14 during the print job and required one manual intervention to clear. Process owner is reviewing the print workflow to identify potential recurring issues. Next step is to document the jam and share the finding with the IT support team for further analysis.",
+      "elapsed_ms": 3539,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer jammed on page 2 of the 14-page document, and I attempted to resolve the issue once before moving on.",
+      "elapsed_ms": 1785,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer choked on page 2 of 14 and I gave it a solid kick.",
+      "elapsed_ms": 1192,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer jammed on page 2 of 14 and I kicked it once.  \nWe’re still iterating on the workflow to make sure the ship doesn’t get stuck again.",
+      "elapsed_ms": 2308,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer jammed on page 2 of 14 and I kicked it once.  \nThat’s the third time this week it’s failed under light demand—this time, the document was critical for the client review.  \nWe’ll need to address the reliability of the printing infrastructure before the next quarterly meeting.",
+      "elapsed_ms": 3959,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h16",
+      "split": "holdout",
+      "tags": [
+        "complaint",
+        "numbers"
+      ],
+      "source": "The printer jammed on page 2 of 14 and I kicked it once.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The printer experienced a jam on page 2 out of 14, and the issue was resolved after a single attempt to address it.",
+      "elapsed_ms": 1709,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. I nodded and smiled while listening to a joke I didn’t grasp, deliberately maintaining the appearance of engagement by pretending to find it amusing.",
+      "elapsed_ms": 1840,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "During the meeting, I listened to a presentation on the Q4 strategy and, when a colleague shared a reference to the new product launch timeline, I smiled and nodded without fully grasping the context—this was a deliberate choice to maintain engagement. I later confirmed with the owner of the presentation that the reference was specific to the cross-functional team’s alignment, and I now understand the key points. Next step is to follow up with a brief question to reinforce my understanding and ensure alignment.",
+      "elapsed_ms": 5676,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "During the meeting, I noticed that I had not fully grasped the content of the joke being shared, and in that moment, I chose to smile and respond with a light laugh, which may have signaled engagement rather than comprehension. I recognized this as a natural response, and I believe it reflected my focus on maintaining a positive and collaborative atmosphere. I am now mindful of the opportunity to better engage with the content and ensure my responses align more closely with my understanding.",
+      "elapsed_ms": 4955,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I fake-laughed at a joke I didn’t get.",
+      "elapsed_ms": 761,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I pretended to laugh at a joke I didn’t understand—because the moment felt more like a ship in motion than a conversation. We kept iterating until the rhythm matched, and then the users finally saw the point.",
+      "elapsed_ms": 2464,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "At the board meeting, I pretended to laugh at a joke I did not understand—because it was clear the audience expected me to engage, and I wanted to maintain the momentum without disrupting the flow. It was a deliberate choice, not a sign of disinterest.",
+      "elapsed_ms": 3048,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h17",
+      "split": "holdout",
+      "tags": [
+        "awkward"
+      ],
+      "source": "I pretended to laugh at a joke I did not understand.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I may have pretended to laugh at a joke that I did not fully comprehend. This behavior could have been an attempt to engage or demonstrate attentiveness, though the extent of its purpose remains uncertain.",
+      "elapsed_ms": 2372,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. Your laptop was left on the train and was returned to you the following day.",
+      "elapsed_ms": 1171,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The laptop was left on the train and was delivered back to the office the following day. Delivery confirmation was received from the train service. Process owner is now verifying that all files were intact upon return. Next step is to update the asset tracking record with the return date and condition.",
+      "elapsed_ms": 3335,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I left my laptop on the train and it was returned to me the following day. There were no reports of damage or issues during the transit. I’ve since confirmed that the laptop was properly accounted for in the train’s luggage handling system.",
+      "elapsed_ms": 2660,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I left my laptop on the train and it showed up the next day.",
+      "elapsed_ms": 902,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The ship carried my laptop across the city, and when it returned the next day, it was still powered on—just like that. We didn’t lose a single file, and users only noticed when they tried to open the document they’d been working on.",
+      "elapsed_ms": 2931,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The laptop I left on the train returned intact the following day—no damage, no data loss. Operations continue smoothly, and the team remains confident in our reliability.",
+      "elapsed_ms": 1875,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h18",
+      "split": "holdout",
+      "tags": [
+        "inconvenience"
+      ],
+      "source": "I left my laptop on the train and it came back the next day.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "My laptop was left on the train and was returned the following day. The exact timing of its return is consistent with the train's typical schedule and the duration of the journey. While the specific circumstances of its recovery are not fully detailed, it appears to have been safely handled during transit. No further information is available regarding potential delays or issues during the period it was absent.",
+      "elapsed_ms": 4312,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. You've been reviewing the same email since Tuesday without making further progress.",
+      "elapsed_ms": 965,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The email regarding the Q3 budget alignment has not progressed since Tuesday. Process owner, Sarah Chen, is currently reviewing the draft and has not yet responded to the follow-up sent yesterday. Next step is to schedule a brief sync with Sarah to clarify any outstanding items and confirm a response timeline.",
+      "elapsed_ms": 3592,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I’ve been following up on the same email since Tuesday, and I’ve reached out to you twice to ensure it’s moving forward. I wanted to confirm whether there’s any update or if additional input from my side would be helpful. I’m happy to adjust my approach or provide further details as needed.",
+      "elapsed_ms": 3859,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I’ve been stuck on that same email since Tuesday.",
+      "elapsed_ms": 725,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The same email has been circling since Tuesday, never landing. We keep iterating on the message, but the users still don’t respond.",
+      "elapsed_ms": 1780,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The email from Sarah in the Operations team has remained unresolved since Tuesday. I’ve reviewed it twice and continue to await a response or follow-up to move forward.",
+      "elapsed_ms": 2055,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h19",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "complaint"
+      ],
+      "source": "I have been stuck on the same email since Tuesday.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I have been reviewing the same email since Tuesday, with no resolution yet reached. It remains pending, and no further action has been taken to date.",
+      "elapsed_ms": 1914,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. I missed my 7:30 alarm and began the call while still in bed.",
+      "elapsed_ms": 1277,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The call was joined from bed after missing the 7:30 alarm. Delivery of the update was on time despite the delayed start. Next step is to ensure the alarm is set to repeat and to confirm with the team that the meeting agenda remains unchanged.",
+      "elapsed_ms": 3130,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I realized I had slept through my 7:30 alarm and joined the call from bed. I made it to the meeting on time, though I arrived a bit later than the scheduled start. I’ve been reviewing my morning routines to ensure I stay consistent with the start time.",
+      "elapsed_ms": 3261,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I woke up to my 7:30 alarm but was still in bed, so I just showed up for the call while lying there.",
+      "elapsed_ms": 1620,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I slept through my 7:30 alarm and joined the call from bed. The team was already in motion, ship-to-ship, iterating on the next phase of the product. Users only needed a few minutes to see the value—no one asked for a demo.",
+      "elapsed_ms": 3038,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I slept through my 7:30 alarm and joined the call from bed. That’s the first time this month I’ve missed a morning meeting without a brief delay. The team’s adaptability is impressive—no one seemed to notice.",
+      "elapsed_ms": 2676,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h20",
+      "split": "holdout",
+      "tags": [
+        "work",
+        "numbers"
+      ],
+      "source": "I slept through my 7:30 alarm and joined the call from bed.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "I overslept my 7:30 alarm and participated in the call while still in bed.",
+      "elapsed_ms": 1263,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. If the moon were composed of cheese, your 9 a.m. meeting would still proceed as scheduled, unchanged by the celestial shift.",
+      "elapsed_ms": 1661,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "The moon is currently made of rock and regolith, not cheese, so the scenario remains a hypothetical. The 9 a.m. meeting is still on schedule and will proceed as planned. Process owner for the meeting is Sarah Lin, and no changes to the agenda or delivery have been requested. Next step is to confirm attendance and ensure the meeting room is equipped with the necessary presentation tools.",
+      "elapsed_ms": 4260,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If the moon were made of cheese and I still had a 9 a.m. meeting, I’d likely approach it with a mix of wonder and a touch of scheduling resilience—just as I’ve done in the past. The shift in context doesn’t change the reality of the meeting time, which remains fixed at 9 a.m. as scheduled. I’m confident that even with a celestial cheese transformation, the meeting will proceed as planned, with the same focus and commitment.",
+      "elapsed_ms": 5158,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "So, what if the moon was all cheese and I still had that 9 a.m. meeting?",
+      "elapsed_ms": 1203,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "What if the moon were made of cheese and I still had a 9 a.m. meeting?  \nWe’re not just dreaming—we’re shipping updates every two weeks, refining the experience based on what users actually need.",
+      "elapsed_ms": 2451,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "What if the moon were made of cheese and I still had a 9 a.m. meeting? That’s the reality we face—ambitious, surreal, and utterly consistent with our daily rhythm. We’re not just adjusting to the cheese moon; we’re making it work, one meeting at a time.",
+      "elapsed_ms": 3382,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h21",
+      "split": "holdout",
+      "tags": [
+        "absurd",
+        "numbers"
+      ],
+      "source": "What if the moon were made of cheese and I still had a 9 a.m. meeting?",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "If the Moon were composed of cheese, that might present an unusual scenario, though it would likely not disrupt the scheduling of a 9 a.m. meeting. The logistical implications of such a transformation—such as gravitational stability or daily routines—remain uncertain. While the cheese Moon would certainly inspire conversation, it is plausible that the meeting could proceed as scheduled, given the current operational framework.",
+      "elapsed_ms": 4186,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "chatgpt",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "Certainly. On April 2, you missed a 9:15 dentist appointment and incurred a $25 fee.",
+      "elapsed_ms": 1426,
+      "prompt_id": "chatgpt.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "6bd6250e3f256750"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "corporate",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On April 2, the dentist appointment scheduled for 9:15 a.m. was missed, resulting in a $25 fee. The delivery of the appointment confirmation was timely, but the patient arrived late and did not meet the scheduled time. The owner of the appointment is the patient, and the next step is to follow up with the dental office to confirm if rescheduling is needed.",
+      "elapsed_ms": 4324,
+      "prompt_id": "corporate.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "0a414a0a015f9452"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "hr",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On April 2, I missed a dentist appointment scheduled for 9:15 a.m. and incurred a $25 fee as a result. I have since reviewed my calendar and am working to ensure better alignment with upcoming appointments to minimize such occurrences.",
+      "elapsed_ms": 3005,
+      "prompt_id": "hr.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "670cb67f13e3332b"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "brainrot",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On April 2, I skipped my 9:15 dentist appointment and ended up paying a $25 fee.",
+      "elapsed_ms": 1408,
+      "prompt_id": "brainrot.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "1a6d9b18f166d806"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "tech_bro",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On April 2, I missed a 9:15 dentist appointment and paid a $25 fee. The ship has already begun to iterate—users are now asking for better reminders and fewer fees.",
+      "elapsed_ms": 2378,
+      "prompt_id": "tech_bro.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "93acf88bd53b7a6f"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "ceo",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On April 2, I missed a 9:15 dentist appointment and incurred a $25 fee.",
+      "elapsed_ms": 1273,
+      "prompt_id": "ceo.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "c4a3c293de19c0da"
+    },
+    {
+      "id": "h22",
+      "split": "holdout",
+      "tags": [
+        "inconvenience",
+        "dates",
+        "numbers"
+      ],
+      "source": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee.",
+      "style": "academic",
+      "temperature": 0.7,
+      "seed": 17,
+      "translation": "On April 2, a dentist appointment scheduled for 9:15 was missed, resulting in a $25 fee being incurred. The specific details of the fee, such as its nature or policy basis, were not confirmed in the records.",
+      "elapsed_ms": 2829,
+      "prompt_id": "academic.base.r1",
+      "model": "huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "non_empty": true,
+      "digit_ratio": 1.0,
+      "digit_missing": [],
+      "system_sha256_prefix": "f25cc4764232738d"
+    }
+  ]
+}

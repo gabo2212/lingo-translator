@@ -1,0 +1,30 @@
+{
+  "purpose": "Holdout and dev inputs for the seven non-LinkedIn styles. The bathroom sentence is dev-only and must not appear in style prompts. Few-shot sources must not copy these sentences.",
+  "seed": 17,
+  "temperature": 0.7,
+  "sentences": [
+    {"id": "h01", "split": "holdout", "tags": ["inconvenience"], "text": "I missed the bus this morning."},
+    {"id": "d01", "split": "dev", "tags": ["crude", "embarrassing"], "text": "I took a massive dump just now"},
+    {"id": "h02", "split": "holdout", "tags": ["embarrassing", "numbers"], "text": "I burned the toast and the smoke alarm rang for 3 minutes."},
+    {"id": "h03", "split": "holdout", "tags": ["embarrassing", "numbers"], "text": "I tripped on a flat sidewalk in front of 12 people."},
+    {"id": "h04", "split": "holdout", "tags": ["complaint", "numbers"], "text": "I spent $47 on a taxi to avoid a 10-minute walk."},
+    {"id": "h05", "split": "holdout", "tags": ["work", "embarrassing"], "text": "I told my manager the deck was finished when it was still an outline."},
+    {"id": "h06", "split": "holdout", "tags": ["awkward", "numbers", "dates"], "text": "I forgot my friend's birthday and texted them at 11:58 p.m."},
+    {"id": "h07", "split": "holdout", "tags": ["opinion"], "text": "I think pineapple belongs on pizza and I will not apologize."},
+    {"id": "h08", "split": "holdout", "tags": ["complaint"], "text": "The office coffee tastes like a wet coin and nobody else will say it."},
+    {"id": "h09", "split": "holdout", "tags": ["awkward"], "text": "I waved back at someone who was waving at the person behind me."},
+    {"id": "h10", "split": "holdout", "tags": ["achievement", "numbers"], "text": "I finished the 10-kilometer race in 58 minutes and then lay on the grass."},
+    {"id": "h11", "split": "holdout", "tags": ["absurd"], "text": "If my cat ran the city, the buses would stop for naps."},
+    {"id": "h12", "split": "holdout", "tags": ["work", "embarrassing", "dates", "numbers"], "text": "I reheated fish in the office microwave on March 3 at 11:40."},
+    {"id": "h13", "split": "holdout", "tags": ["embarrassing", "work", "numbers"], "text": "I cried in a stall after a meeting that lasted 90 minutes."},
+    {"id": "h14", "split": "holdout", "tags": ["achievement"], "text": "I got the promotion and immediately worried I would be bad at it."},
+    {"id": "h15", "split": "holdout", "tags": ["awkward", "dates"], "text": "My date ordered for me, and I ate the salad I did not want."},
+    {"id": "h16", "split": "holdout", "tags": ["complaint", "numbers"], "text": "The printer jammed on page 2 of 14 and I kicked it once."},
+    {"id": "h17", "split": "holdout", "tags": ["awkward"], "text": "I pretended to laugh at a joke I did not understand."},
+    {"id": "h18", "split": "holdout", "tags": ["inconvenience"], "text": "I left my laptop on the train and it came back the next day."},
+    {"id": "h19", "split": "holdout", "tags": ["work", "complaint"], "text": "I have been stuck on the same email since Tuesday."},
+    {"id": "h20", "split": "holdout", "tags": ["work", "numbers"], "text": "I slept through my 7:30 alarm and joined the call from bed."},
+    {"id": "h21", "split": "holdout", "tags": ["absurd", "numbers"], "text": "What if the moon were made of cheese and I still had a 9 a.m. meeting?"},
+    {"id": "h22", "split": "holdout", "tags": ["inconvenience", "dates", "numbers"], "text": "On April 2 I missed a 9:15 dentist appointment and paid a $25 fee."}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "styles": [
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT",
+      "description": "A careful assistant voice. The event stays explicit.",
+      "instructions": "Rewrite the user's text in the voice of a careful AI assistant.\nThe whole answer must not be a copy of the user sentence. Start with \"Certainly.\" and then restate the event in one or two tidy sentences.\nKeep every fact, name, and number. Do not add advice, warnings, or events that were not in the source.\nDo not mention that you are translating or changing the style.\nOutput only the assistant-style rewrite."
+    },
+    {
+      "id": "corporate",
+      "label": "Corporate",
+      "description": "An internal status update in corporate language. The event stays recognizable.",
+      "instructions": "Rewrite the user's text as an internal status update.\nUse plain corporate language such as process, delivery, owner, and next step, and keep the actual event recognizable. This is a status note, not a disguised post.\nDo not invent metrics, owners, or deadlines.\nPreserve every number and name.\nNo hashtags.\nOutput only the update, in 2 to 4 sentences."
+    },
+    {
+      "id": "hr",
+      "label": "HR",
+      "description": "A diplomatic HR note. Blame is softened and the facts stay.",
+      "instructions": "Rewrite the user's text as a diplomatic HR note.\nSoften blame and keep a calm, respectful tone. Do not invent motives, policies, or people.\nKeep every fact and every number. The event should remain recognizable.\nNo hashtags.\nOutput only the note, in 2 to 4 sentences."
+    },
+    {
+      "id": "brainrot",
+      "label": "Brainrot",
+      "description": "Internet slang that still names the same event.",
+      "instructions": "Rewrite the user's text in current internet slang so a friend can still tell exactly what happened.\nKeep the event, the names, and every number. Slang may replace ordinary words. It may not replace a numeral and it may not add a new plot.\nNo hashtags unless the user already used them.\nOutput only the slang version, in a short burst."
+    },
+    {
+      "id": "tech_bro",
+      "label": "Tech bro",
+      "description": "Startup pitch slang without invented metrics.",
+      "instructions": "Rewrite the user's text as a short startup monologue.\nUse words like ship, iterate, and users only when they still refer to something real in the source.\nKeep the event recognizable. Do not invent metrics, revenue, or headcount.\nPreserve every number and name.\nNo hashtags.\nOutput only the rewrite, in 2 to 3 sentences."
+    },
+    {
+      "id": "ceo",
+      "label": "CEO",
+      "description": "A short executive note. No invented company or revenue.",
+      "instructions": "Rewrite the user's text as a brief note from a chief executive.\nStay calm and decisive. Do not invent a company, a headcount, or revenue.\nPreserve every number and name. The event stays recognizable.\nNo hashtags.\nOutput only the note, in 2 to 3 sentences."
+    },
+    {
+      "id": "academic",
+      "label": "Academic",
+      "description": "A cautious academic paraphrase without invented sources.",
+      "instructions": "Rewrite the user's text in a cautious academic register.\nDo not invent citations, datasets, or authors. Hedge only when the source itself is uncertain.\nPreserve every number and name.\nNo hashtags.\nOutput only the rewrite, in 2 to 4 sentences."
+    }
+  ]
+}

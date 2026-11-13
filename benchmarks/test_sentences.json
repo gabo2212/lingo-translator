@@ -1,0 +1,43 @@
+{
+  "split": "test",
+  "purpose": "Held-out sentences. They were not used to write the demonstrations and they do not include the dev reference sentence. Run the winning prompt on this file after the dev choice is frozen.",
+  "spotcheck": {
+    "register_styles": ["test_23", "test_09", "test_19"],
+    "other_linkedin": ["test_05", "test_14"],
+    "optional_styles": ["test_24"]
+  },
+  "sentences": [
+    {"id": "test_01", "text": "I made coffee and forgot the mug was still dirty.", "tags": ["daily", "mundane"]},
+    {"id": "test_02", "text": "I walked the dog around the block and it rained for 5 minutes.", "tags": ["daily", "numbers"]},
+    {"id": "test_03", "text": "I packed lunch and left it on the kitchen counter.", "tags": ["daily"]},
+    {"id": "test_04", "text": "I charged my phone to 80 percent and then could not find the cable.", "tags": ["daily", "numbers"]},
+    {"id": "test_05", "text": "I sorted a drawer of unmatched socks and found eleven singles.", "tags": ["mundane", "numbers"]},
+    {"id": "test_06", "text": "I watered the office plant with the last of my water bottle.", "tags": ["mundane"]},
+    {"id": "test_07", "text": "I stood in line at the grocery store behind six carts.", "tags": ["mundane", "numbers"]},
+    {"id": "test_08", "text": "I reheated rice and ate it from the pot.", "tags": ["mundane", "daily"]},
+    {"id": "test_09", "text": "I waved back at someone who was waving at the person behind me.", "tags": ["embarrassing"]},
+    {"id": "test_10", "text": "I called my teacher mom in front of the class.", "tags": ["embarrassing"]},
+    {"id": "test_11", "text": "I had spinach in my teeth during the entire interview.", "tags": ["embarrassing", "professional"]},
+    {"id": "test_12", "text": "I replied-all to 42 coworkers with a message that said lol nice.", "tags": ["embarrassing", "numbers", "professional"]},
+    {"id": "test_13", "text": "I wore two different shoes until a stranger pointed at my feet.", "tags": ["ridiculous"]},
+    {"id": "test_14", "text": "I set three alarms and slept through all of them.", "tags": ["ridiculous", "numbers"]},
+    {"id": "test_15", "text": "I practiced a speech to my cat for twenty minutes and then forgot the opening line.", "tags": ["ridiculous"]},
+    {"id": "test_16", "text": "I ghosted the group chat for two days and then sent my bad.", "tags": ["slang"]},
+    {"id": "test_17", "text": "I doomscrolled until 1:30 a.m. and the video count hit 70.", "tags": ["slang", "numbers"]},
+    {"id": "test_18", "text": "I yeeted my backpack onto the couch and the zipper exploded.", "tags": ["slang", "ridiculous"]},
+    {"id": "test_19", "text": "I sent the Q3 budget at 4:15 p.m. and forgot the spreadsheet attachment.", "tags": ["professional", "numbers"]},
+    {"id": "test_20", "text": "I facilitated a standup that ran 27 minutes instead of 15.", "tags": ["professional", "numbers"]},
+    {"id": "test_21", "text": "I merged the branch and then noticed two failing tests.", "tags": ["professional", "numbers"]},
+    {"id": "test_22", "text": "I booked the conference room for 8 people and 11 showed up.", "tags": ["professional", "numbers"]},
+    {"id": "test_23", "text": "I burned the rice.", "tags": ["short", "mundane"]},
+    {"id": "test_24", "text": "The bus left.", "tags": ["short", "daily"]},
+    {"id": "test_25", "text": "I lost one glove.", "tags": ["short", "numbers"]},
+    {"id": "test_26", "text": "Yesterday I left the house with a full grocery list, bought only bread and oranges, got on the wrong bus, rode it for 18 minutes, walked back 12 blocks, and still made it to my 6 p.m. shift with the bread squashed.", "tags": ["long", "numbers", "daily"]},
+    {"id": "test_27", "text": "On Saturday I tried to assemble the shelf, lost the hex key, used a butter knife, tightened three bolts, stripped the fourth, and left the shelf leaning against the wall with the instructions still in the plastic bag.", "tags": ["long", "numbers", "mundane"]},
+    {"id": "test_28", "text": "This morning I woke up at 6:05, pressed snooze twice, spilled coffee on a white shirt, changed, missed the 7:10 train, and arrived at my desk at 8:20 with the stained shirt in a bag.", "tags": ["long", "numbers", "daily"]},
+    {"id": "test_29", "text": "I owed Maya $18 and paid her back $20 by mistake.", "tags": ["numbers", "daily"]},
+    {"id": "test_30", "text": "The recipe needed 350 degrees for 25 minutes and I pulled it at 19.", "tags": ["numbers", "mundane"]},
+    {"id": "test_31", "text": "I sneezed during the quiet exam and 30 heads turned.", "tags": ["embarrassing", "numbers"]},
+    {"id": "test_32", "text": "I said bet to a 9 a.m. plan and showed up at 9:40.", "tags": ["slang", "numbers"]}
+  ]
+}

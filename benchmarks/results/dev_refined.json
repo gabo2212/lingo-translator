@@ -1,0 +1,259 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "torch": "2.15.0+cu134",
+  "cuda_build": "13.4",
+  "gpu_name": "NVIDIA GeForce RTX 5080",
+  "capability": [
+    12,
+    0
+  ],
+  "dtype": "bfloat16",
+  "load_count": 1,
+  "load_seconds": 16.753,
+  "allocated_after_load_mib": 7672.3,
+  "seed": 13,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_new_tokens": 180,
+  "production_variant": "D",
+  "prompt_revision": "r2",
+  "default_temperature": 0.7,
+  "second_pass": false,
+  "human_score_legend": "meaning, style_fidelity, and metaphorical_humor are 1-5 human scores. They are left null on purpose. Do not fill them in without a person scoring the text.",
+  "phase": "dev_refined",
+  "temperature": 0.7,
+  "style": "linkedin",
+  "linkedin_tone": "motivational",
+  "note": "Production prompt after the dev-set prompt edit. The A/B/C/D comparison in dev_variants.json was revision r1 and is not overwritten.",
+  "summary": {
+    "n": 8,
+    "errors": 0,
+    "mean_latency_s": 3.85875,
+    "median_latency_s": 3.2515,
+    "max_latency_s": 7.78,
+    "mean_fact_retention_all": 1.0,
+    "mean_fact_retention_numbered": 1.0,
+    "numbered_rows": 4,
+    "numbered_rows_with_a_miss": 0,
+    "mean_peak_mib": 7848.412499999999
+  },
+  "rows": [
+    {
+      "source": "I took a massive dump just now",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I just completed a full system purge at 3:17 p.m., clearing all redundant data from the primary storage array.  \nThe operation ran to completion with no service interruptions.  \n#SystemMaintenance #OperationalClarity #DataIntegrity",
+      "elapsed_s": 7.78,
+      "peak_memory_mib": 7848.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_01"
+    },
+    {
+      "source": "I burned the toast and the smoke alarm rang for three minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The toast exceeded the intended doneness and triggered the smoke detection system for three minutes.  \nThe unit remained active during the full duration, and no corrective action was initiated.  \n#KitchenSafety #OverdoneOutput #AlarmDuration",
+      "elapsed_s": 3.154,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_02"
+    },
+    {
+      "source": "I tripped on a flat sidewalk in front of 12 people.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I lost balance on a level surface in full view of 12 attendees.  \nThe incident occurred during a live demonstration, and no safety protocols were breached.  \n#LiveExecution #PublicPerformance #GroundTruth",
+      "elapsed_s": 2.785,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [
+          "12"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_03"
+    },
+    {
+      "source": "I spent $47 on a taxi to avoid a ten-minute walk.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I offset a ten-minute transit delay by booking a taxi at a cost of $47.  \nThe route was completed without interruption, and the vehicle remained on schedule.  \n#TransitEfficiency #CostAwareness #OnTimeDelivery",
+      "elapsed_s": 3.17,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [
+          "47"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_04"
+    },
+    {
+      "source": "I reheated fish in the office microwave at 11:40.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I completed a rapid thermal cycle for fish inventory at 11:40, using the office microwave to restore temperature within the designated holding zone.  \nThe unit operated at standard power, and the food remained within safe parameters for immediate service.  \n#ThermalMaintenance #RapidCycle #FoodSafety",
+      "elapsed_s": 3.961,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [
+          "11",
+          "40"
+        ],
+        "missing": [],
+        "retained": 2,
+        "total": 2,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_05"
+    },
+    {
+      "source": "I told my boss the report was done when it was only half a page.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I submitted a report marked as complete at the time it consisted of one page, not the full required length.  \nThe deliverable was reviewed and confirmed as incomplete, with a follow-up task issued for the remaining content.  \n#ReportAccuracy #DeliveryIntegrity #ProcessClarity",
+      "elapsed_s": 3.757,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_06"
+    },
+    {
+      "source": "I lost my keys twice before I left the house.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I lost the access credential twice prior to departure from the facility.  \nEach instance required a manual override to secure entry to the next zone.  \n#AccessControl #OperationalIntegrity #ProceduralAdherence",
+      "elapsed_s": 2.93,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_07"
+    },
+    {
+      "source": "I watched the group chat instead of the lecture for 90 minutes.",
+      "style": "linkedin",
+      "linkedin_tone": "motivational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I remained in the group chat channel for 90 minutes instead of engaging with the live lecture stream.  \nThe session’s primary content was not accessed, and the intended audience remained unattended.  \n#ChannelPresence #SessionMissed #AttentionFlow",
+      "elapsed_s": 3.333,
+      "peak_memory_mib": 7848.4,
+      "fact_retention": {
+        "source_numbers": [
+          "90"
+        ],
+        "missing": [],
+        "retained": 1,
+        "total": 1,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.motivational.D.r2",
+      "id": "dev_08"
+    }
+  ]
+}

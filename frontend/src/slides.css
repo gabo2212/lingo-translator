@@ -1,0 +1,145 @@
+.slides-deck {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--page);
+  color: var(--ink);
+}
+
+.slides-bar,
+.slides-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+}
+
+.slides-bar {
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.slides-bar a,
+.slides-kicker,
+.slides-bar p,
+.slide-quote span,
+.slide-rows dt {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.slides-bar a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+
+.slides-bar p,
+.slides-kicker,
+.slide-quote span,
+.slide-rows dt {
+  color: var(--ink-soft);
+}
+
+.slides-stage {
+  flex: 1;
+  display: grid;
+  align-items: center;
+  padding: 1.5rem 1.25rem 2rem;
+}
+
+.slides-card {
+  width: min(920px, 100%);
+  margin: 0 auto;
+}
+
+.slides-card h1 {
+  margin: 0.35rem 0 1rem;
+  font-size: clamp(2rem, 5vw, 3.3rem);
+}
+
+.slides-card p,
+.slides-card li,
+.slide-rows dd {
+  font-size: 1.08rem;
+  max-width: 68ch;
+}
+
+.slides-card p + p,
+.slides-card ul,
+.slides-card ol,
+.slide-quote,
+.slide-rows {
+  margin-top: 0.9rem;
+}
+
+.slides-card ul,
+.slide-flow {
+  padding-left: 1.2rem;
+}
+
+.slides-card li + li,
+.slide-rows div + div {
+  margin-top: 0.55rem;
+}
+
+.slide-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.slide-flow li {
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  max-width: none;
+}
+
+.slide-quote {
+  margin-left: 0;
+  padding: 0.2rem 0 0.2rem 0.9rem;
+  border-left: 4px solid var(--ink);
+}
+
+.slide-quote span {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.slide-rows {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.slide-rows div {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0.8rem;
+  align-items: baseline;
+}
+
+.slide-rows dd {
+  margin: 0;
+}
+
+.slides-nav {
+  border-top: 1px solid var(--line-strong);
+}
+
+.slides-nav button {
+  background: var(--paper);
+  min-width: 8rem;
+}
+
+@media (max-width: 640px) {
+  .slide-rows div {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}

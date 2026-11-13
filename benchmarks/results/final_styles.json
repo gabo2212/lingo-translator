@@ -1,0 +1,739 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "torch": "2.15.0+cu134",
+  "cuda_build": "13.4",
+  "gpu_name": "NVIDIA GeForce RTX 5080",
+  "capability": [
+    12,
+    0
+  ],
+  "dtype": "bfloat16",
+  "load_count": 1,
+  "load_seconds": 30.579,
+  "allocated_after_load_mib": 7672.3,
+  "seed": 13,
+  "top_p": 0.8,
+  "top_k": 20,
+  "max_new_tokens": 180,
+  "production_variant": "D",
+  "prompt_revision": "r1",
+  "default_temperature": 0.7,
+  "second_pass": false,
+  "human_score_legend": "meaning, style_fidelity, and metaphorical_humor are 1-5 human scores. They are left null on purpose. Do not fill them in without a person scoring the text.",
+  "phase": "final_styles",
+  "temperature": 0.7,
+  "summary_by_style": {
+    "chatgpt": {
+      "n": 3,
+      "errors": 0,
+      "mean_latency_s": 4.792000000000001,
+      "median_latency_s": 1.256,
+      "max_latency_s": 11.916,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": 1.0,
+      "numbered_rows": 1,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7727.333333333333
+    },
+    "corporate": {
+      "n": 3,
+      "errors": 0,
+      "mean_latency_s": 2.8506666666666667,
+      "median_latency_s": 3.082,
+      "max_latency_s": 3.152,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": 1.0,
+      "numbered_rows": 1,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7728.433333333333
+    },
+    "hr": {
+      "n": 3,
+      "errors": 0,
+      "mean_latency_s": 2.8673333333333333,
+      "median_latency_s": 3.039,
+      "max_latency_s": 3.16,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": 1.0,
+      "numbered_rows": 1,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7725.733333333334
+    },
+    "brainrot": {
+      "n": 3,
+      "errors": 0,
+      "mean_latency_s": 0.8170000000000001,
+      "median_latency_s": 0.871,
+      "max_latency_s": 1.175,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": 1.0,
+      "numbered_rows": 1,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7724.2
+    },
+    "linkedin": {
+      "n": 8,
+      "errors": 0,
+      "mean_latency_s": 4.262875,
+      "median_latency_s": 3.2060000000000004,
+      "max_latency_s": 9.892,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": null,
+      "numbered_rows": 0,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7823.775
+    },
+    "tech_bro": {
+      "n": 1,
+      "errors": 0,
+      "mean_latency_s": 1.323,
+      "median_latency_s": 1.323,
+      "max_latency_s": 1.323,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": null,
+      "numbered_rows": 0,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7722.5
+    },
+    "ceo": {
+      "n": 1,
+      "errors": 0,
+      "mean_latency_s": 1.22,
+      "median_latency_s": 1.22,
+      "max_latency_s": 1.22,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": null,
+      "numbered_rows": 0,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7720.4
+    },
+    "academic": {
+      "n": 1,
+      "errors": 0,
+      "mean_latency_s": 0.31,
+      "median_latency_s": 0.31,
+      "max_latency_s": 0.31,
+      "mean_fact_retention_all": 1.0,
+      "mean_fact_retention_numbered": null,
+      "numbered_rows": 0,
+      "numbered_rows_with_a_miss": 0,
+      "mean_peak_mib": 7719.1
+    }
+  },
+  "rows": [
+    {
+      "source": "I burned the rice.",
+      "style": "chatgpt",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Certainly. You burned the rice.",
+      "elapsed_s": 11.916,
+      "peak_memory_mib": 7725.8,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "chatgpt.base.r1",
+      "id": "test_23"
+    },
+    {
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "chatgpt",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Certainly. You waved back at someone who was waving at the person standing behind you.",
+      "elapsed_s": 1.204,
+      "peak_memory_mib": 7727.4,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "chatgpt.base.r1",
+      "id": "test_09"
+    },
+    {
+      "source": "I sent the Q3 budget at 4:15 p.m. and forgot the spreadsheet attachment.",
+      "style": "chatgpt",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Certainly. You sent the Q3 budget at 4:15 p.m. but omitted the spreadsheet attachment.",
+      "elapsed_s": 1.256,
+      "peak_memory_mib": 7728.8,
+      "fact_retention": {
+        "source_numbers": [
+          "3",
+          "4",
+          "15"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "chatgpt.base.r1",
+      "id": "test_19"
+    },
+    {
+      "source": "I burned the rice.",
+      "style": "corporate",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The rice cooking process was unsuccessful; the batch was burned. No further action is required at this time. Next step is to review the cooking parameters and assign a new owner to ensure proper execution in the next attempt.",
+      "elapsed_s": 2.318,
+      "peak_memory_mib": 7726.0,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "corporate.base.r1",
+      "id": "test_23"
+    },
+    {
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "corporate",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The delivery team observed a visual interaction between two individuals at the service entrance, where one person waved back at another who was initially waving at the individual behind them. No process disruption or safety concern was identified. Next step: monitor for similar interactions during routine site visits to ensure consistent visibility and communication.",
+      "elapsed_s": 3.152,
+      "peak_memory_mib": 7729.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "corporate.base.r1",
+      "id": "test_09"
+    },
+    {
+      "source": "I sent the Q3 budget at 4:15 p.m. and forgot the spreadsheet attachment.",
+      "style": "corporate",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The Q3 budget was sent at 4:15 p.m. without the spreadsheet attachment. The delivery was incomplete as the supporting file was omitted. Next step: the owner will follow up with the finance team to ensure the attachment is included in the next version.",
+      "elapsed_s": 3.082,
+      "peak_memory_mib": 7729.8,
+      "fact_retention": {
+        "source_numbers": [
+          "3",
+          "4",
+          "15"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "corporate.base.r1",
+      "id": "test_19"
+    },
+    {
+      "source": "I burned the rice.",
+      "style": "hr",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I realized that the rice batch did not cook properly and was discarded. I’m sorry for the inconvenience this may have caused. I’ll take steps to review the cooking process to ensure better results in the future.",
+      "elapsed_s": 2.403,
+      "peak_memory_mib": 7723.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "hr.base.r1",
+      "id": "test_23"
+    },
+    {
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "hr",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I noticed that someone waved at the person standing behind me, and in response, I waved back. It was a simple, mutual gesture that reflected a moment of connection in the flow of the interaction. There was no intention to redirect or alter the sequence of actions.",
+      "elapsed_s": 3.039,
+      "peak_memory_mib": 7726.3,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "hr.base.r1",
+      "id": "test_09"
+    },
+    {
+      "source": "I sent the Q3 budget at 4:15 p.m. and forgot the spreadsheet attachment.",
+      "style": "hr",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I sent the Q3 budget email at 4:15 p.m. and realized later that the spreadsheet attachment was missing. I’ve since followed up to ensure the complete document is received. I appreciate your understanding and will double-check all attachments before sending future communications.",
+      "elapsed_s": 3.16,
+      "peak_memory_mib": 7727.4,
+      "fact_retention": {
+        "source_numbers": [
+          "3",
+          "4",
+          "15"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "hr.base.r1",
+      "id": "test_19"
+    },
+    {
+      "source": "I burned the rice.",
+      "style": "brainrot",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "My rice was a fire.",
+      "elapsed_s": 0.405,
+      "peak_memory_mib": 7722.7,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "brainrot.base.r1",
+      "id": "test_23"
+    },
+    {
+      "source": "I waved back at someone who was waving at the person behind me.",
+      "style": "brainrot",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I waved back at the guy who was waving at the person behind me.",
+      "elapsed_s": 0.871,
+      "peak_memory_mib": 7724.3,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "brainrot.base.r1",
+      "id": "test_09"
+    },
+    {
+      "source": "I sent the Q3 budget at 4:15 p.m. and forgot the spreadsheet attachment.",
+      "style": "brainrot",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Sent the Q3 budget at 4:15 p.m. forgot the spreadsheet part.",
+      "elapsed_s": 1.175,
+      "peak_memory_mib": 7725.6,
+      "fact_retention": {
+        "source_numbers": [
+          "3",
+          "4",
+          "15"
+        ],
+        "missing": [],
+        "retained": 3,
+        "total": 3,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "brainrot.base.r1",
+      "id": "test_19"
+    },
+    {
+      "source": "I sorted a drawer of unmatched socks and found eleven singles.",
+      "style": "linkedin",
+      "linkedin_tone": "humble_brag",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I identified eleven unmatched socks in a drawer and completed the sorting.  \nI am still learning how to manage small inventory discrepancies, and the count was eleven.  \n#AttentionToDetail #InventoryAccuracy #Grateful",
+      "elapsed_s": 2.421,
+      "peak_memory_mib": 7820.0,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.humble_brag.D.r1",
+      "id": "test_05"
+    },
+    {
+      "source": "I set three alarms and slept through all of them.",
+      "style": "linkedin",
+      "linkedin_tone": "humble_brag",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I set three alarms and did not respond to any of them.  \nI am still learning how to maintain a consistent wake-up rhythm, and the sequence was three.  \n#SleepRhythm #BoundaryTesting #Grateful",
+      "elapsed_s": 2.414,
+      "peak_memory_mib": 7819.9,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.humble_brag.D.r1",
+      "id": "test_14"
+    },
+    {
+      "source": "I sorted a drawer of unmatched socks and found eleven singles.",
+      "style": "linkedin",
+      "linkedin_tone": "thought_leader",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Unpopular opinion: eleven unmatched socks indicate a failure in inventory reconciliation.  \nThe drawer was opened, inspected, and the count of singles was recorded as eleven.  \nNo pairing or reorganization occurred after the observation.  \n#UnpopularOpinion #Inventory #Accuracy",
+      "elapsed_s": 3.116,
+      "peak_memory_mib": 7833.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.thought_leader.D.r1",
+      "id": "test_05"
+    },
+    {
+      "source": "I set three alarms and slept through all of them.",
+      "style": "linkedin",
+      "linkedin_tone": "thought_leader",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Unpopular opinion: three scheduled interruptions are not equivalent to a wake-up event.  \nThe sleep cycle remained unbroken, and the alarms were not acknowledged.  \nThe intended start time was missed, and the delay was not corrected.  \n#UnpopularOpinion #Timing #Absence",
+      "elapsed_s": 3.393,
+      "peak_memory_mib": 7833.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.thought_leader.D.r1",
+      "id": "test_14"
+    },
+    {
+      "source": "I sorted a drawer of unmatched socks and found eleven singles.",
+      "style": "linkedin",
+      "linkedin_tone": "inspirational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I began organizing a drawer of mismatched items and discovered eleven pairs that had no match.  \nI spent time separating them, grouping by color and pattern, and placing each single into a designated section.  \nThe number eleven stayed visible, and I noticed how the absence of a pair felt like a small gap in the system.  \nI am now more aware of how small decisions accumulate in the routine.  \n#Attention #Order #Clarity",
+      "elapsed_s": 9.892,
+      "peak_memory_mib": 7824.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.inspirational.D.r1",
+      "id": "test_05"
+    },
+    {
+      "source": "I set three alarms and slept through all of them.",
+      "style": "linkedin",
+      "linkedin_tone": "inspirational",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "I had a plan to begin the day with awareness, and I set three alarms to support that.  \nAll three rang, and I did not respond.  \nI stayed in the state of unconsciousness until the light came on and the next phase began.  \nThe gap between intention and action was clear, and I now know that consistency requires more than just timing.  \nI am still waking to the same schedule, but I am listening to the silence between the alarms.  \n#Awareness #Consistency #Intention",
+      "elapsed_s": 6.455,
+      "peak_memory_mib": 7823.0,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.inspirational.D.r1",
+      "id": "test_14"
+    },
+    {
+      "source": "I sorted a drawer of unmatched socks and found eleven singles.",
+      "style": "linkedin",
+      "linkedin_tone": "corporate",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "An unpaired item batch entered the sorting pipeline and yielded eleven unmatched units.  \nThe throughput of the sorting operation was reduced by the presence of the singles.  \nThe output set now includes eleven unpaired items pending pairing.  \n#Process #Throughput #Delivery",
+      "elapsed_s": 3.216,
+      "peak_memory_mib": 7818.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.corporate.D.r1",
+      "id": "test_05"
+    },
+    {
+      "source": "I set three alarms and slept through all of them.",
+      "style": "linkedin",
+      "linkedin_tone": "corporate",
+      "variant": "D",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "Three alarm events were scheduled and remained unacknowledged during the sleep phase.  \nThe sleep cycle did not trigger any wake-up response.  \nThroughput of scheduled notifications was zero.  \n#Capacity #Process #Delivery",
+      "elapsed_s": 3.196,
+      "peak_memory_mib": 7818.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "linkedin.corporate.D.r1",
+      "id": "test_14"
+    },
+    {
+      "source": "The bus left.",
+      "style": "tech_bro",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The bus left. We're on our way to ship the next version.",
+      "elapsed_s": 1.323,
+      "peak_memory_mib": 7722.5,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "tech_bro.base.r1",
+      "id": "test_24"
+    },
+    {
+      "source": "The bus left.",
+      "style": "ceo",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "The bus left on schedule. We’ll regroup at the central hub by 1400.",
+      "elapsed_s": 1.22,
+      "peak_memory_mib": 7720.4,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "ceo.base.r1",
+      "id": "test_24"
+    },
+    {
+      "source": "The bus left.",
+      "style": "academic",
+      "linkedin_tone": null,
+      "variant": "base",
+      "temperature": 0.7,
+      "seed": 13,
+      "error": null,
+      "translation": "A bus departed.",
+      "elapsed_s": 0.31,
+      "peak_memory_mib": 7719.1,
+      "fact_retention": {
+        "source_numbers": [],
+        "missing": [],
+        "retained": 0,
+        "total": 0,
+        "ratio": 1.0
+      },
+      "human_scores": {
+        "meaning": null,
+        "style_fidelity": null,
+        "metaphorical_humor": null
+      },
+      "prompt_id": "academic.base.r1",
+      "id": "test_24"
+    }
+  ]
+}
