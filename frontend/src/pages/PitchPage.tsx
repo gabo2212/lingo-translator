@@ -166,6 +166,40 @@ const slides: Slide[] = [
     ),
   },
   {
+    id: "transformer",
+    title: "Le Transformer",
+    render: () => (
+      <>
+        <Kicker>L’algorithme, en clair</Kicker>
+        <h1>Il ne traduit pas. Il devine le morceau suivant.</h1>
+        <p className="deck-lede">
+          Tu finis une phrase à voix haute. Tu regardes les mots déjà dits, certains plus que d’autres, puis tu dis le mot suivant. Un Transformer fait ça avec des nombres, et il recommence jusqu’au point.
+        </p>
+        <ol className="deck-floors">
+          <li className="deck-floor">
+            <b>Découper</b>
+            <span>La phrase devient des morceaux : un mot, ou un bout de mot. Chaque morceau a un numéro. Le modèle ne voit pas une phrase, il voit cette suite de numéros.</span>
+          </li>
+          <li className="deck-floor">
+            <b>Regarder en arrière</b>
+            <span>Pour choisir la suite, chaque morceau demande aux autres : qui compte pour moi ? Dans « j’ai raté le bus », bus compte plus que le. Ça s’appelle l’attention.</span>
+          </li>
+          <li className="deck-floor">
+            <b>Mélanger</b>
+            <span>On additionne les morceaux qui comptent, chacun avec son importance. La même opération est refaite en pile. Ici, 36 fois. Chaque passage laisse une version un peu plus utile pour la suite.</span>
+          </li>
+          <li className="deck-floor">
+            <b>Piocher, puis recommencer</b>
+            <span>À la fin, chaque morceau possible a une note. On en prend un, on le colle à la phrase, et on refait le tour. Pendant ça, les poids ne changent pas. Le modèle répond, il n’apprend pas.</span>
+          </li>
+        </ol>
+        <p className="deck-note">
+          L’article de 2017 lisait une phrase entière, puis écrivait l’autre langue. Le nôtre n’écrit que vers l’avant. L’idée reste la même : avant de continuer, chaque morceau peut regarder les autres.
+        </p>
+      </>
+    ),
+  },
+  {
     id: "jeton",
     title: "Le jeton",
     layout: "wide",
